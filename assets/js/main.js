@@ -243,7 +243,7 @@
 
 						var	pixelStep = 10,
 							lineHeight = 40,
-							pageHeight = 800,
+							pageHeight = 2000,
 							sX = 0,
 							sY = 0,
 							pX = 0,
