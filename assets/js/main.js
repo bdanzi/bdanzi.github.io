@@ -74,7 +74,7 @@
 
 	// Breakpoints.
 		breakpoints({
-			customized: ['981px',  '3000px'],
+			customized: ['3000px',  '981px'],
 			xlarge:   [ '1281px',  '1680px' ],
 			large:    [ '981px',   '1280px' ],
 			medium:   [ '737px',   '980px'  ],
