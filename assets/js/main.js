@@ -242,8 +242,8 @@
 					var normalizeWheel = function(event) {
 
 						var	pixelStep = 10,
-							lineHeight = 40,
-							pageHeight = 2000,
+							lineHeight = 10,
+							pageHeight = 5000,
 							sX = 0,
 							sY = 0,
 							pX = 0,
