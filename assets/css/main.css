@@ -3398,10 +3398,10 @@ input, select, textarea {
 /* Panel (Spotlight) */
 
 	.panel.spotlight {
-		 -moz-align-items: -moz-stretch;
-		-webkit-align-items: -webkit-stretch;
-		-ms-align-items: -ms-stretch;
-		align-items: stretch;
+		 -moz-align-items: -moz-start;
+		-webkit-align-items: -webkit-start;
+		-ms-align-items: -ms-start;
+		align-items: start;
 		position: relative;
 	}
 
