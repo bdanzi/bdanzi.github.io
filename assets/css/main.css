@@ -347,7 +347,7 @@ input, select, textarea {
 		}
 
 	h1.major, h2.major, h3.major {
-		position: relative;
+		position: static;
         
 	}
 
