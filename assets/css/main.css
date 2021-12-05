@@ -347,14 +347,13 @@ input, select, textarea {
 		}
 
 	h1.major, h2.major, h3.major {
-		position: absolute;
-                left:10px;
-                top: 15px;
+		position: relative;
+        
 	}
 
 		h1.major:after, h2.major:after, h3.major:after {
 			content: '';
-			position: absolute;
+			position: relative;
 			left: 0;
 			width: 3.5rem;
 			height: 0.2rem;
