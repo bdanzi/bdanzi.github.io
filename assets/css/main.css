@@ -3354,10 +3354,10 @@ input, select, textarea {
 	@media screen and (max-width: 736px) and (orientation: portrait) {
 
 		.panel.banner .content {
-			-moz-flex-basis: auto;
-			-webkit-flex-basis: auto;
-			-ms-flex-basis: auto;
-			flex-basis: auto;
+			-moz-flex-basis: 60%;
+			-webkit-flex-basis: 60%;
+			-ms-flex-basis: 60%;
+			flex-basis: 60%;
 		}
 
 		.panel.banner .image {
