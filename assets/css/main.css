@@ -3390,7 +3390,7 @@ input, select, textarea {
 		-moz-align-items: -moz-stretch;
 		-webkit-align-items: -webkit-stretch;
 		-ms-align-items: -ms-stretch;
-		align-items: stretch;
+		align-items: start;
 		position: relative;
 	}
 
