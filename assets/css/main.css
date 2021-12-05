@@ -3257,7 +3257,7 @@ input, select, textarea {
 		-moz-align-items: -moz-start;
 		-webkit-align-items: -webkit-start;
 		-ms-align-items: -ms-start;
-		align-items: stretch;
+		align-items: start;
 		
 	}
 
