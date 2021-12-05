@@ -3299,6 +3299,10 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			position: relative;
+			-moz-align-items: -moz-stretch;
+		        -webkit-align-items: -webkit-stretch;
+		        -ms-align-items: -ms-stretch;
+		        align-items: stretch;
 		}
 
 			.panel.banner .image img {
