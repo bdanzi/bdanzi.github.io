@@ -74,7 +74,6 @@
 
 	// Breakpoints.
 		breakpoints({
-			customized: ['737px',  '3000px'],
 			xlarge:   [ '1281px',  '1680px' ],
 			large:    [ '981px',   '1280px' ],
 			medium:   [ '737px',   '980px'  ],
@@ -242,8 +241,8 @@
 					var normalizeWheel = function(event) {
 
 						var	pixelStep = 10,
-							lineHeight = 10,
-							pageHeight = 5000,
+							lineHeight = 40,
+							pageHeight = 800,
 							sX = 0,
 							sY = 0,
 							pX = 0,
