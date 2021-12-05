@@ -3370,7 +3370,7 @@ input, select, textarea {
 			-webkit-flex-basis: auto;
 			-ms-flex-basis: auto;
 			flex-basis: auto;
-			height: 18rem;
+			height: auto;
 		}
 
 		.panel.banner.left {
