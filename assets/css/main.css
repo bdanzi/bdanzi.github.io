@@ -3344,7 +3344,7 @@ input, select, textarea {
 		}
 
 			.panel.banner .content > .actions:last-child {
-				margin-bottom: 1.5rem;
+				margin-bottom: 0;
 			}
 
 		.panel.banner .image {
