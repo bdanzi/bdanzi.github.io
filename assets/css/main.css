@@ -3306,16 +3306,16 @@ input, select, textarea {
 		}
 
 			.panel.banner .image img {
-				-moz-object-fit: cover;
-				-webkit-object-fit: cover;
-				-ms-object-fit: cover;
-				object-fit: cover;
+				-moz-object-fit: fill;
+				-webkit-object-fit: fill;
+				-ms-object-fit: fill;
+				object-fit: fill;
 				display: block;
 				position: relative;
 				top: 0;
 				left: 0;
 				width: 100%;
-				height: 600px;
+				height: 100%;
 			}
 
 		.panel.banner.left {
