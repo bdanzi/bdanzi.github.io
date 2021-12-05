@@ -346,7 +346,7 @@ input, select, textarea {
 		}
 
 	h1.major, h2.major, h3.major {
-		position: top;
+		position: relative;
 	}
 
 		h1.major:after, h2.major:after, h3.major:after {
@@ -2185,7 +2185,7 @@ input, select, textarea {
 		-ms-align-items: -ms-stretch;
 		align-items: stretch;
 		height: 100%;
-		overflow-x: hidden;
+		overflow-x: auto;
 		overflow-y: auto;
 	}
 
