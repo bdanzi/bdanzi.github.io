@@ -3254,11 +3254,11 @@ input, select, textarea {
 /* Panel (Banner) */
 
 	.panel.banner {
-	        -moz-align-items: -moz-stretch;
-		-webkit-align-items: -webkit-stretch;
-		-ms-align-items: -ms-stretch;
-		align-items: stretch;
-		position: relative;
+		-moz-align-items: -moz-start;
+		-webkit-align-items: -webkit-start;
+		-ms-align-items: -ms-start;
+		align-items: start;
+		
 	}
 
 		.panel.banner .content {
@@ -3392,10 +3392,11 @@ input, select, textarea {
 /* Panel (Spotlight) */
 
 	.panel.spotlight {
-		-moz-align-items: -moz-start;
-		-webkit-align-items: -webkit-start;
-		-ms-align-items: -ms-start;
-		align-items: start;
+		 -moz-align-items: -moz-stretch;
+		-webkit-align-items: -webkit-stretch;
+		-ms-align-items: -ms-stretch;
+		align-items: stretch;
+		position: relative;
 	}
 
 		.panel.spotlight > * {
