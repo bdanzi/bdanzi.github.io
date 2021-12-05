@@ -3347,10 +3347,10 @@ input, select, textarea {
 			}
 
 		.panel.banner .image {
-			-moz-flex-basis: auto;
-			-webkit-flex-basis: auto;
-			-ms-flex-basis: auto;
-			flex-basis: auto;
+			-moz-flex-basis: 40%;
+			-webkit-flex-basis: 40%;
+			-ms-flex-basis: 40%;
+			flex-basis: 40%;
 		}
 
 	}
@@ -3358,10 +3358,10 @@ input, select, textarea {
 	@media screen and (max-width: 736px) and (orientation: portrait) {
 
 		.panel.banner .content {
-			-moz-flex-basis: 60%;
-			-webkit-flex-basis: 60%;
-			-ms-flex-basis: 60%;
-			flex-basis: 60%;
+			-moz-flex-basis: auto;
+			-webkit-flex-basis: auto;
+			-ms-flex-basis: auto;
+			flex-basis: auto;
 		}
 
 		.panel.banner .image {
