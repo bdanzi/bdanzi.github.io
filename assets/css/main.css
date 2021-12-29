@@ -397,11 +397,11 @@ input, select, textarea {
 
 		body.light-mode h1.major {
 			margin: 0 0 2.625rem 0;
-			color: rgba(255, 255, 255, 0.25);
+			color: rgba(255, 255, 255, 1);
 		}
 		body.dark-mode h1.major {
 			margin: 0 0 2.625rem 0;
-			color: rgba(0,0,0, 0.25);
+			color: rgba(0,0,0, 1);
 		}
 
 			h1.major:after {
@@ -416,11 +416,11 @@ input, select, textarea {
 
 		body.light-mode h2.major {
 			margin: 0 0 1.9875rem 0;
-			color: rgba(255, 255, 255, 0.25);
+			color: rgba(255, 255, 255, 1);
 		}
 		body.dark-mode h2.major {
 			margin: 0 0 1.9875rem 0;
-			color: rgba(0,0,0, 0.25);
+			color: rgba(0,0,0, 1);
 		}
 
 			h2.major:after {
