@@ -204,7 +204,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		body:after {
+		body:after.light-mode  {
 			pointer-events: none;
 			content: '';
 			display: block;
