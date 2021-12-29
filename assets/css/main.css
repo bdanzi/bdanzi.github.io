@@ -370,7 +370,7 @@ input, select, textarea {
 		margin: 0 0 0.75rem 0;
 		letter-spacing: -0.05em;
 	}
-
+	
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -381,13 +381,21 @@ input, select, textarea {
 		position: relative;
 	}
 
-	h1.major:after, h2.major:after, h3.major:after {
+	body.light-mode h1.major:after, h2.major:after, h3.major:after {
 			content: '';
 			position: absolute;
 			left: 0;
 			width: 3.5rem;
 			height: 0.1rem;
 			color: rgba(255, 255, 255, 0.25);
+		}
+	body.dark-mode h1.major:after, h2.major:after, h3.major:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 3.5rem;
+			height: 0.1rem;
+			color: rgba(0,0,0, 0.25);
 		}
 
 	h1 {
