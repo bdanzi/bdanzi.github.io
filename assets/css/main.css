@@ -381,21 +381,13 @@ input, select, textarea {
 		position: relative;
 	}
 
-	body.light-mode h1.major:after, h2.major:after, h3.major:after {
+	h1.major:after, h2.major:after, h3.major:after {
 			content: '';
 			position: absolute;
 			left: 0;
 			width: 3.5rem;
 			height: 0.1rem;
-			color: rgba(255, 255, 255, 0.25);
-		}
-	body.dark-mode h1.major:after, h2.major:after, h3.major:after {
-			content: '';
-			position: absolute;
-			left: 0;
-			width: 3.5rem;
-			height: 0.1rem;
-			color: rgba(0,0,0, 0.25);
+			
 		}
 
 	h1 {
@@ -403,12 +395,18 @@ input, select, textarea {
 		line-height: 1.2;
 	}
 
-		h1.major {
+		body.light-mode h1.major {
 			margin: 0 0 2.625rem 0;
+			color: rgba(255, 255, 255, 0.25);
+		}
+		body.dark-mode h1.major {
+			margin: 0 0 2.625rem 0;
+			color: rgba(0,0,0, 0.25);
 		}
 
 			h1.major:after {
 				bottom: -1.325rem;
+				
 			}
 
 	h2 {
@@ -416,8 +414,13 @@ input, select, textarea {
 		line-height: 1.2;
 	}
 
-		h2.major {
+		body.light-mode h2.major {
 			margin: 0 0 1.9875rem 0;
+			color: rgba(255, 255, 255, 0.25);
+		}
+		body.dark-mode h2.major {
+			margin: 0 0 1.9875rem 0;
+			color: rgba(0,0,0, 0.25);
 		}
 
 			h2.major:after {
