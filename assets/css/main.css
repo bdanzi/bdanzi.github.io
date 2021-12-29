@@ -1816,7 +1816,7 @@ body.dark-mode	h1.major:after, h2.major:after, h3.major:after {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(255, 228, 180, 0.125);
+			background-color: rgba(153, 153, 102, 0.125);
 		}
 
 		input[type="submit"].icon:before,
@@ -1922,7 +1922,7 @@ body.dark-mode	h1.major:after, h2.major:after, h3.major:after {
 		.button.primary {
 			background-color: white;
 			box-shadow: none;
-			color: #2e2b37 !important;
+			color: #808080 !important;
 		}
 
 			input[type="submit"].primary.color1,
@@ -1930,7 +1930,7 @@ body.dark-mode	h1.major:after, h2.major:after, h3.major:after {
 			input[type="button"].primary.color1,
 			button.primary.color1,
 			.button.primary.color1 {
-				color: #726193 !important;
+				color: #737373 !important;
 			}
 
 			input[type="submit"].primary.color2,
@@ -1938,7 +1938,7 @@ body.dark-mode	h1.major:after, h2.major:after, h3.major:after {
 			input[type="button"].primary.color2,
 			button.primary.color2,
 			.button.primary.color2 {
-				color: #e37b7c !important;
+				color: #2a0909 !important;
 			}
 
 			input[type="submit"].primary.color3,
@@ -1946,7 +1946,7 @@ body.dark-mode	h1.major:after, h2.major:after, h3.major:after {
 			input[type="button"].primary.color3,
 			button.primary.color3,
 			.button.primary.color3 {
-				color: #ffe4b4 !important;
+				color: #4d3000 !important;
 			}
 
 			input[type="submit"].primary.color4,
@@ -1954,7 +1954,7 @@ body.dark-mode	h1.major:after, h2.major:after, h3.major:after {
 			input[type="button"].primary.color4,
 			button.primary.color4,
 			.button.primary.color4 {
-				color: #353865 !important;
+				color: #1a1d33 !important;
 			}
 
 			input[type="submit"].primary:hover,
@@ -1970,7 +1970,7 @@ body.dark-mode	h1.major:after, h2.major:after, h3.major:after {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #fdd997;
+				background-color: #332000;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
