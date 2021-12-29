@@ -260,7 +260,20 @@ while (me.isAlive()) {
 
 						<!-- Copyright -->
 							<div class="copyright">&copy; 2021 Brunella D'Anzi . Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
-
+							<div className="cta">
+              <button
+                className="dark-switcher"
+                onClick={theme.toggleDark}
+                aria-label="Toggle Light/Dark Mode."
+                title="Toggle Light/Dark Mode"
+              >
+                {theme.dark ? (
+                  <BsMoon className="nav-icons moon-nav-icon" />
+                ) : (
+                  <IoMdSunny className="nav-icons sun-nav-icon" />
+                )}
+              </button>
+            </div>
 					</div>
 
 			</div>
