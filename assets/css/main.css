@@ -204,7 +204,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		body.light-mode *:after{
+		body.light-mode:after{
 			pointer-events: none;
 			content: '';
 			display: block;
@@ -220,7 +220,7 @@ input, select, textarea {
 			background-repeat: repeat, repeat-x;
 			background-size: 128px 128px, cover;
 		}
-		body.dark-mode *:after{
+		body.dark-mode:after{
 			background-color: #111;
 			color: #eee;
 			pointer-events: none;
