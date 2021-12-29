@@ -1,0 +1,7 @@
+body.className=localStorage.getItem("stateMode");
+function toggleDarkLight() {
+var body = document.getElementById("body");
+var currentClass = body.className;
+body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+localStorage.setItem("stateMode",body.className);
+}
