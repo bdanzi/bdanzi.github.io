@@ -347,7 +347,7 @@ input, select, textarea {
 			color: #ffe4b4;
 		}
 	
-	body.light-mode strong, b{
+	body strong, body b,body.light-mode strong, b{
 		color: rgba(255, 255, 255, 0.875);
 		font-weight: 400;
 	}
@@ -418,7 +418,7 @@ input, select, textarea {
 		line-height: 1.2;
 	}
 		
-		body.light-mode h1.major {
+		body h1.major, body.light-mode h1.major {
 			margin: 0 0 2.625rem 0;
 			color: rgba(255, 255, 255, 1);
 		}
@@ -438,7 +438,7 @@ input, select, textarea {
 		line-height: 1.2;
 	}
 		
-		body.light-mode h2.major {
+		body h2.major, body.light-mode h2.major {
 			margin: 0 0 1.9875rem 0;
 			color: rgba(255, 255, 255, 1);
 		}
@@ -451,7 +451,7 @@ input, select, textarea {
 				bottom: -1.2rem;
 			}
 	 
-	body.light-mode h3 {
+	body h3,body.light-mode h3 {
 		font-size: 1.325rem;
 		color: rgba(255, 255, 255, 1);
 	}
@@ -461,7 +461,7 @@ input, select, textarea {
 		color: rgba(0,0,0, 1);
 	}
 		
-		body.light-mode h3.major {
+		body h3.major,body.light-mode h3.major {
 			margin: 0 0 1.875rem 0;
 			color: rgba(255, 255, 255, 1);
 		}
@@ -480,12 +480,12 @@ input, select, textarea {
 	}
 
 	
-	body.light-mode h4 {
+	body h4,body.light-mode h4 {
 		font-size: 1rem;
 		color: rgba(255, 255, 255, 1);
 	}
 
-	body.light-mode h5 {
+	body h5,body.light-mode h5 {
 		font-size: 0.9rem;
 		color: rgba(255, 255, 255, 1);
 	}
