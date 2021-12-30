@@ -353,7 +353,7 @@ input, select, textarea {
 	}
 	
 	body.dark-mode strong, b{
-		color: rgba(56,92,180, 0.875);
+		color: rgba(0,0,0, 0.875);
 		font-weight: 400;
 	}
 
