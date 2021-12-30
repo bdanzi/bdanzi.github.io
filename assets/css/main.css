@@ -1695,6 +1695,7 @@ input, select, textarea {
 				line-height: inherit;
 				margin: 0;
 				text-indent: 0;
+				color: trasparent;
 				
 			}
 
@@ -1908,7 +1909,7 @@ input, select, textarea {
 			overflow: hidden;
 			padding: 0;
 			letter-spacing: 0;
-			color: rgba(0,51,160,0.875)
+			color: rgba(0,51,160,0.875);
 		}
 
 			input[type="submit"].icon.circle:before,
@@ -1926,6 +1927,7 @@ input, select, textarea {
 				line-height: inherit;
 				margin: 0;
 				text-indent: 0;
+				color: rgba(0,51,160,0.875);
 			}
 
 			input[type="submit"].icon.circle.fa-angle-left:before,
