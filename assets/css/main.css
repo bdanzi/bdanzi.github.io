@@ -325,7 +325,13 @@ input, select, textarea {
 			}
 
 		}
-
+	body, input, select, textarea {
+		color: rgba(255, 255, 255, 0.75);
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 1rem;
+		font-weight: 300;
+		line-height: 1.65;
+	}
 	body.light-mode, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -335,13 +341,6 @@ input, select, textarea {
 	}
 	body.dark-mode, input, select, textarea {
 		color: rgba(0,0,0, 0.75);
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 1rem;
-		font-weight: 300;
-		line-height: 1.65;
-	}
-	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
@@ -362,15 +361,15 @@ input, select, textarea {
 			border-bottom-color: transparent;
 			color: #ffe4b4;
 		}
-
-	body.light-mode strong, b, p {
-		color: rgba(255, 255, 255, 0.875);
-		font-weight: 400;
-	}
 	strong, b, p {
 		color: rgba(255, 255, 255, 0.875);
 		font-weight: 400;
 	}
+	body.light-mode strong, b, p {
+		color: rgba(255, 255, 255, 0.875);
+		font-weight: 400;
+	}
+	
 	body.dark-mode strong, b, p {
 		color: rgba(0,0,0, 0.875);
 		font-weight: 400;
@@ -420,15 +419,15 @@ input, select, textarea {
 		font-size: 3rem;
 		line-height: 1.2;
 	}
-
-		body.light-mode h1.major {
-			margin: 0 0 2.625rem 0;
-			color: rgba(255, 255, 255, 1);
-		}
 		h1.major {
 			margin: 0 0 2.625rem 0;
 			color: rgba(255, 255, 255, 1);
 		}
+		body.light-mode h1.major {
+			margin: 0 0 2.625rem 0;
+			color: rgba(255, 255, 255, 1);
+		}
+
 		body.dark-mode h1.major {
 			margin: 0 0 2.625rem 0;
 			color: rgba(0,0,0, 1);
