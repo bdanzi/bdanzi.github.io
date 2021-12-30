@@ -1626,7 +1626,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		body.light-mode button:hover,
-		body.light-mode .button:hover {
+		body.light-mode .button:hover, body button:hover, body .button:hover{
 			box-shadow: inset 0 0 0 2px #ffe4b4;
 			color: #ffe4b4 !important;
 		}
@@ -1635,7 +1635,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		body.light-mode button:active,
-		body.light-mode .button:active {
+		body.light-mode .button:active, body button:active, body .button:active{
 			background-color: rgba(255, 228, 180, 0.125);
 		}
 
@@ -1643,7 +1643,8 @@ input, select, textarea {
 		input[type="reset"].icon:before,
 		input[type="button"].icon:before,
 		body.light-mode button.icon:before,
-		body.light-mode .button.icon:before {
+		body.light-mode .button.icon:before,body button.icon:before,
+		body .button.icon:before {
 			display: inline-block;
 			position: relative;
 			top: -0.075rem;
@@ -1656,7 +1657,8 @@ input, select, textarea {
 		input[type="reset"].icon.circle,
 		input[type="button"].icon.circle,
 		body.light-mode button.icon.circle,
-		body.light-mode .button.icon.circle {
+		body.light-mode .button.icon.circle, body button.icon.circle,
+		body .button.icon.circle {
 			position: relative;
 			width: 3.125rem;
 			height: 3.125rem;
@@ -1672,7 +1674,8 @@ input, select, textarea {
 			input[type="reset"].icon.circle:before,
 			input[type="button"].icon.circle:before,
 			body.light-mode button.icon.circle:before,
-			body.light-mode .button.icon.circle:before {
+			body.light-mode .button.icon.circle:before, body button.icon.circle:before,
+			body .button.icon.circle:before {
 				display: block;
 				position: absolute;
 				top: 0;
@@ -1689,7 +1692,9 @@ input, select, textarea {
 			input[type="reset"].icon.circle.fa-angle-left:before,
 			input[type="button"].icon.circle.fa-angle-left:before,
 			body.light-mode button.icon.circle.fa-angle-left:before,
-			body.light-mode .button.icon.circle.fa-angle-left:before {
+			body.light-mode .button.icon.circle.fa-angle-left:before,
+			body button.icon.circle.fa-angle-left:before,
+			body .button.icon.circle.fa-angle-left:before {
 				position: relative;
 				left: -0.1rem;
 				font-size: 1.75rem;
@@ -1699,7 +1704,9 @@ input, select, textarea {
 			input[type="reset"].icon.circle.fa-angle-right:before,
 			input[type="button"].icon.circle.fa-angle-right:before,
 			body.light-mode button.icon.circle.fa-angle-right:before,
-			body.light-mode .button.icon.circle.fa-angle-right:before {
+			body.light-mode .button.icon.circle.fa-angle-right:before,
+			body button.icon.circle.fa-angle-right:before,
+			body .button.icon.circle.fa-angle-right:before {
 				position: relative;
 				left: 0.1rem;
 				font-size: 1.75rem;
@@ -1709,7 +1716,8 @@ input, select, textarea {
 		input[type="reset"].fit,
 		input[type="button"].fit,
 		body.light-mode button.fit,
-		body.light-mode .button.fit {
+		body.light-mode .button.fit,body button.fit,
+		body .button.fit {
 			width: 100%;
 		}
 
@@ -1717,7 +1725,8 @@ input, select, textarea {
 		input[type="reset"].small,
 		input[type="button"].small,
 		body.light-mode button.small,
-		body.light-mode .button.small {
+		body.light-mode .button.small,body button.small,
+		body .button.small {
 			font-size: 0.4rem;
 			height: 1.875rem;
 			line-height: 1.875rem;
@@ -1728,7 +1737,8 @@ input, select, textarea {
 		input[type="reset"].large,
 		input[type="button"].large,
 		body.light-mode button.large,
-		body.light-mode .button.large {
+		body.light-mode .button.large,body button.large,
+		body .button.large  {
 			font-size: 0.8rem;
 			height: 3.3125rem;
 			line-height: 3.3125rem;
@@ -1739,7 +1749,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		body.light-mode button.primary,
-		body.light-mode .button.primary {
+		body.light-mode .button.primary,body button.primary,
+		body .button.primary {
 			background-color: white;
 			box-shadow: none;
 			color: #2e2b37 !important;
@@ -1749,7 +1760,8 @@ input, select, textarea {
 			input[type="reset"].primary.color1,
 			input[type="button"].primary.color1,
 			body.light-mode button.primary.color1,
-			body.light-mode .button.primary.color1 {
+			body.light-mode .button.primary.color1,body button.primary.color1,
+			body .button.primary.color1 {
 				color: #726193 !important;
 			}
 
@@ -1757,7 +1769,8 @@ input, select, textarea {
 			input[type="reset"].primary.color2,
 			input[type="button"].primary.color2,
 			body.light-mode button.primary.color2,
-			body.light-mode .button.primary.color2 {
+			body.light-mode .button.primary.color2,body button.primary.color2,
+			body .button.primary.color2 {
 				color: #e37b7c !important;
 			}
 
@@ -1765,7 +1778,8 @@ input, select, textarea {
 			input[type="reset"].primary.color3,
 			input[type="button"].primary.color3,
 			body.light-mode button.primary.color3,
-			body.light-mode .button.primary.color3 {
+			body.light-mode .button.primary.color3,body button.primary.color3,
+			body .button.primary.color3  {
 				color: #ffe4b4 !important;
 			}
 
@@ -1773,7 +1787,8 @@ input, select, textarea {
 			input[type="reset"].primary.color4,
 			input[type="button"].primary.color4,
 			body.light-mode button.primary.color4,
-			body.light-mode .button.primary.color4 {
+			body.light-mode .button.primary.color4,body button.primary.color4,
+			body .button.primary.color4 {
 				color: #353865 !important;
 			}
 
@@ -1781,7 +1796,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			body.light-mode button.primary:hover,
-			body.light-mode .button.primary:hover {
+			body.light-mode .button.primary:hover,body button.primary:hover,
+			body .button.primary:hover {
 				background-color: #ffe4b4;
 			}
 
@@ -1789,7 +1805,8 @@ input, select, textarea {
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			body.light-mode button.primary:active,
-			body.light-mode .button.primary:active {
+			body.light-mode .button.primary:active,body button.primary:active,
+			body .button.primary:active {
 				background-color: #fdd997;
 			}
 
