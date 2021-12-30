@@ -1676,6 +1676,7 @@ input, select, textarea {
 			overflow: hidden;
 			padding: 0;
 			letter-spacing: 0;
+			color: trasparent;
 		}
 
 			input[type="submit"].icon.circle:before,
