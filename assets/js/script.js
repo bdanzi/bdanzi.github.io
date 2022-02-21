@@ -11,6 +11,7 @@ button_2.className=localStorage.getItem("stateMode");
 button_3.className=localStorage.getItem("stateMode");
 button_4.className=localStorage.getItem("stateMode");
 button_5.className=localStorage.getItem("stateMode");
+
 function changeImage() {
 var button = document.getElementById("dark_light");
 var button_1 = document.getElementById("dark_light_1");
@@ -37,3 +38,20 @@ localStorage.setItem("stateMode",button_4.className);
 button_5.className = currentClass_button_5 == "button primary color2 circle icon solid fa-moon" ? "button primary color2 circle icon solid fa-sun" : "button primary color2 circle icon solid fa-moon";
 localStorage.setItem("stateMode",button_5.className);
 }
+
+function togglePlayPause(){
+
+  var myAudio = document.getElementById("myAudio");
+  return myAudio.paused ? myAudio.play() : myAudio.pause();
+}
+
+function changePause() {
+  var button = document.getElementById("play_pause");
+  
+  var currentClass_button = button.className;
+  
+  button.className = currentClass_button == "button primary color1 circle icon solid fa-pause" ? "button primary color2 circle icon solid fa-play" : "button primary color2 circle icon solid fa-pause";
+  localStorage.setItem("stateMode",button.className);
+  
+  }
+  
