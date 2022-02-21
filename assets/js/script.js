@@ -45,13 +45,12 @@ function togglePlayPause(){
   var myAudio = document.getElementById("myAudio");
   return myAudio.paused ? myAudio.play() : myAudio.pause();
 }
-button_play.className=localStorage.getItem("stateMode");
+
 function changePause() {
   var button_play = document.getElementById("play_pause");
-  
+  button_play.className=localStorage.getItem("stateMode");
   var currentClass_button_play = button_play.className;
-  
-  button_play.className = currentClass_button_play == "button primary color1 circle icon solid fa-pause" ? "button primary color2 circle icon solid fa-play" : "button primary color2 circle icon solid fa-pause";
+  button_play.className = currentClass_button_play == "button primary color2 circle icon solid fa-pause" ? "button primary color2 circle icon solid fa-play" : "button primary color2 circle icon solid fa-pause";
   localStorage.setItem("stateMode",button_play.className);
   
   }
