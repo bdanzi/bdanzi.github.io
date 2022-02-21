@@ -48,10 +48,35 @@ function togglePlayPause(){
 
 function changePause() {
   var button_play = document.getElementById("play_pause");
+  var button_play_1 = document.getElementById("play_pause_1");
+  var button_play_2 = document.getElementById("play_pause_2");
+  var button_play_3 = document.getElementById("play_pause_3");
+  var button_play_4 = document.getElementById("play_pause_4");
+  var button_play_5 = document.getElementById("play_pause_5");
   button_play.className=localStorage.getItem("stateMode");
+  button_play_1.className=localStorage.getItem("stateMode");
+  button_play_2.className=localStorage.getItem("stateMode");
+  button_play_3.className=localStorage.getItem("stateMode");
+  button_play_4.className=localStorage.getItem("stateMode");
+  button_play_5.className=localStorage.getItem("stateMode");
   var currentClass_button_play = button_play.className;
+  var currentClass_button_play_1 = button_play_1.className;
+  var currentClass_button_play_2 = button_play_2.className;
+  var currentClass_button_play_3 = button_play_3.className;
+  var currentClass_button_play_4 = button_play_4.className;
+  var currentClass_button_play_5 = button_play_5.className;
   button_play.className = currentClass_button_play == "button primary color2 circle icon solid fa-pause" ? "button primary color2 circle icon solid fa-play" : "button primary color2 circle icon solid fa-pause";
+  button_play_1.className = currentClass_button_play_1 == "button primary color2 circle icon solid fa-pause" ? "button primary color2 circle icon solid fa-play" : "button primary color2 circle icon solid fa-pause";
+  button_play_2.className = currentClass_button_play_2 == "button primary color2 circle icon solid fa-pause" ? "button primary color2 circle icon solid fa-play" : "button primary color2 circle icon solid fa-pause";
+  button_play_3.className = currentClass_button_play_3 == "button primary color2 circle icon solid fa-pause" ? "button primary color2 circle icon solid fa-play" : "button primary color2 circle icon solid fa-pause";
+  button_play_4.className = currentClass_button_play_4 == "button primary color2 circle icon solid fa-pause" ? "button primary color2 circle icon solid fa-play" : "button primary color2 circle icon solid fa-pause";
+  button_play_5.className = currentClass_button_play_5 == "button primary color2 circle icon solid fa-pause" ? "button primary color2 circle icon solid fa-play" : "button primary color2 circle icon solid fa-pause";
   localStorage.setItem("stateMode",button_play.className);
+  localStorage.setItem("stateMode",button_play_1.className);
+  localStorage.setItem("stateMode",button_play_2.className);
+  localStorage.setItem("stateMode",button_play_3.className);
+  localStorage.setItem("stateMode",button_play_4.className);
+  localStorage.setItem("stateMode",button_play_5.className);
   
   }
   
