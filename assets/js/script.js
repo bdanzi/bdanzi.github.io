@@ -38,13 +38,14 @@ localStorage.setItem("stateMode",button_4.className);
 button_5.className = currentClass_button_5 == "button primary color2 circle icon solid fa-moon" ? "button primary color2 circle icon solid fa-sun" : "button primary color2 circle icon solid fa-moon";
 localStorage.setItem("stateMode",button_5.className);
 }
-button_play.className=localStorage.getItem("stateMode");
+
+
 function togglePlayPause(){
 
   var myAudio = document.getElementById("myAudio");
   return myAudio.paused ? myAudio.play() : myAudio.pause();
 }
-
+button_play.className=localStorage.getItem("stateMode");
 function changePause() {
   var button_play = document.getElementById("play_pause");
   
