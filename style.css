@@ -24,13 +24,14 @@
     justify-content: flex-end;
     align-items: center;
     padding: 24px;
+    width: 108px;
     background-image: url('images_piano/panel-reflex.png');
     background-repeat: no-repeat;
-    background-size: 448px;
+    
 }
 
 .piano-panel img {
-    width: 50px;
+    width: 160px;
 }
 
 .piano-keys {
