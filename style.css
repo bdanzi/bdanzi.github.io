@@ -76,13 +76,13 @@
     border-radius: 0 0 8px 8px;    
 }
 
-.key-white:active {
+/* .key-white:active {
     background: #dddddd;
 }
 
 .key-black:active {
     background: #000000;
-}
+} */
 
 .key-white:hover {
     background: #dddddd;
