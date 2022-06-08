@@ -25,7 +25,7 @@ function playSound(key) {
 
 
 keyElements.forEach(function(keyElement) {
-    keyElement.addEventListener('onclick', function() {
+    keyElement.addEventListener('click', function() {
         const key = keyElement.id;
         playSound(key);
     });
