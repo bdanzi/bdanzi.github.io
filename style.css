@@ -19,13 +19,13 @@
 
 .piano-panel {
     height: 94px;
-    background-color: #f7146788;
+    background-color: #ec272791;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 24px;
     width: 448px;
-    background-image:  url('images_piano/panel-reflex.png'),url('images_piano/sfondo_wallabe.jpeg');
+    background-image:  url('images_piano/panel-reflex.png');
     /* background-image: url('images_piano/sfondo_wallabe.jpeg'); */
     /* background-image: url('images_piano/panel-reflex.png'), url('images_piano/sfondo_wallabe.jpeg');
     background-repeat: no-repeat, no-repeat; */
