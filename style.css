@@ -52,10 +52,10 @@
 .key-white {
     height: 100%;
     width: 64px;
-    background-color: linear-gradient(#ffffff 95%,#737373);
+    background-color: linear-gradient(#ffffff,#737373);
     border-right: 2px solid #000000;
     border-left: 2px solid #000000;
-    border-bottom: 6px solid #737373;
+    border-bottom: 6px solid #000000;
     border-radius: 0 0 8px 8px;
 }
 
