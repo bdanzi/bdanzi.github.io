@@ -55,7 +55,7 @@
     background-color: #ffffff;
     border-right: 2px solid #000000;
     border-left: 2px solid #000000;
-    border-bottom: 10px solid linear-gradient(#737373 10%, #0d0d0d);
+    border-bottom: 10px solid linear-gradient(#737373 80%, #0d0d0d);
     border-radius: 0 0 8px 8px;
 }
 
