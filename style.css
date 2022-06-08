@@ -83,3 +83,11 @@
 .key-black:active {
     background: #000000;
 }
+
+.key-white:hover {
+    background: #dddddd;
+}
+
+.key-black:hover {
+    background: #000000;
+}
