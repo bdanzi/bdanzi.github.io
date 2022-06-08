@@ -1,17 +1,17 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
     background: linear-gradient(#0f0f77 5%, #3535EC);
     background-attachment: fixed;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .piano {
 
