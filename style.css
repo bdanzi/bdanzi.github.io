@@ -54,7 +54,7 @@
     background-color: #ffffff;
     border-right: 2px solid #000000;
     border-left: 2px solid #000000;
-    border-bottom: 10px solid #8c8c8c;
+    border-bottom: 10px solid #8c8c8c 2px solid #000000;
     border-radius: 0 0 8px 8px;
 }
 
