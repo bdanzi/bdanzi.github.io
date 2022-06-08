@@ -19,7 +19,8 @@
 
 .piano-panel {
     height: 94px;
-    background-color: #f7146788;
+    /* background-color: #f7146788; */
+    background-color: url('images_piano/sfondo_wallabe.jpeg');
     display: flex;
     justify-content: flex-end;
     align-items: center;
