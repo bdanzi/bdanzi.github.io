@@ -26,11 +26,11 @@
     padding: 24px;
     background-image: url('images_piano/panel-reflex.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 448px;
 }
 
 .piano-panel img {
-    width: 100px;
+    width: 160px;
 }
 
 .piano-keys {
