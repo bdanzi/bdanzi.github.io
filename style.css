@@ -28,8 +28,7 @@
     background-image: url('images_piano/panel-reflex.png');
     background-repeat: no-repeat;
     background-size: contain;
-    border-top: 6px solid; 
-    border-bottom: 6px solid #000000;
+    border: 6px solid #000000;
     border-radius: 0 0 8px 8px;
     
 }
