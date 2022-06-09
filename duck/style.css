@@ -20,6 +20,14 @@
 
 /* Container */
 
+.inputduck, .inputduck:before, .inputduck:after {
+  -webkit-user-select: initial;
+  -khtml-user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial;
+  user-select: initial;
+}
+
 .containerduck {
   width: 90%;
   margin: 0 auto;
@@ -40,7 +48,7 @@ header img {
   height: 120px;
   resize: none;
   outline: none;
-  border: 1px solid #fdfcfc;
+  border: 1px solid #e37b7c;
   border-radius: 16px;
   font-size: 20px;
   padding: 24px;
@@ -91,7 +99,7 @@ header img {
 /* Barra del tono */
 .inputduck {
   width: 100%;
-  accent-color: white;
+  accent-color: #e37b7c;
   border-radius: 16px;
   color: black;
   height: 10px;
