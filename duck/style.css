@@ -32,7 +32,7 @@ header img {
 } */
 
 /* Casella di testo */
-textarea {
+.speechduck {
   margin-top: 32px;
   margin-bottom: 32px;
   width: 100%;
@@ -88,12 +88,12 @@ textarea {
 }
 
 /* Barra del tono */
-input {
+.inputduck {
   width: 100%;
   accent-color: white;
 }
 
-label {
+.labelduck {
   display: block;
   font-size: 14px;
   margin-bottom: 12px;
