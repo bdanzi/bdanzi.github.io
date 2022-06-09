@@ -100,7 +100,7 @@ header img {
 .inputduck {
   width: 100%;
   accent-color: #e37b7c;
-  appearance: none;
+  appearance: #e37b7c;
   border:#e37b7c;
   border-radius: 16px;
   color: black;
