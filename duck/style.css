@@ -6,13 +6,13 @@
 } */
 
 /* Regole generiche */
- html {
+ /* html {
   font-family: 'Roboto', sans-serif;
   height: 100%;
   background: linear-gradient(#3535ec, #b62897);
   background-attachment: fixed;
   color: white;
-} 
+}  */
 
 /* img {
   max-width: 100%;
@@ -40,8 +40,8 @@ header img {
   height: 120px;
   resize: none;
   outline: none;
-  border: none;
-  color: white;
+  border: 1px solid blue;
+  background-color: white;
   border-radius: 16px;
   font-size: 20px;
   padding: 24px;
@@ -58,7 +58,7 @@ header img {
 /* Bottone play */
 .buttonduck {
   width: 64px;
-  height: 56px;
+  height: 64px;
   border-radius: 8px;
   border: none;
   background-color: transparent;
