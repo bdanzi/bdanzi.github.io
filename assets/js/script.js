@@ -1,31 +1,25 @@
-var button_play = document.getElementById("play_pause");
-var button_play_1 = document.getElementById("play_pause_1");
-var button_play_2 = document.getElementById("play_pause_2");
-var button_play_3 = document.getElementById("play_pause_3");
-var button_play_4 = document.getElementById("play_pause_4");
-var button_play_5 = document.getElementById("play_pause_5");
+body.className=localStorage.getItem("stateMode");
+function toggleDarkLight() {
+var body = document.getElementById("body");
+var currentClass = body.className;
+body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+localStorage.setItem("stateMode",body.className);
+}
 var button = document.getElementById("dark_light");
 var button_1 = document.getElementById("dark_light_1");
 var button_2 = document.getElementById("dark_light_2");
 var button_3 = document.getElementById("dark_light_3");
 var button_4 = document.getElementById("dark_light_4");
 var button_5 = document.getElementById("dark_light_5");
-var body = document.getElementById("body");
-
-function toggleDarkLight() {
-body.className=localStorage.getItem("stateMode");
-var currentClass = body.className;
-body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-localStorage.setItem("stateMode",body.className);
-}
-
-function changeImage() {
 button.className=localStorage.getItem("stateMode");
 button_1.className=localStorage.getItem("stateMode");
 button_2.className=localStorage.getItem("stateMode");
 button_3.className=localStorage.getItem("stateMode");
 button_4.className=localStorage.getItem("stateMode");
 button_5.className=localStorage.getItem("stateMode");
+
+function changeImage() {
+
 var currentClass_button = button.className;
 var currentClass_button_1 = button_1.className;
 var currentClass_button_2 = button_2.className;
@@ -54,7 +48,12 @@ function togglePlayPause(){
 }
 
 function changePause() {
-  
+  var button_play = document.getElementById("play_pause");
+  var button_play_1 = document.getElementById("play_pause_1");
+  var button_play_2 = document.getElementById("play_pause_2");
+  var button_play_3 = document.getElementById("play_pause_3");
+  var button_play_4 = document.getElementById("play_pause_4");
+  var button_play_5 = document.getElementById("play_pause_5");
   button_play.className=localStorage.getItem("stateMode");
   button_play_1.className=localStorage.getItem("stateMode");
   button_play_2.className=localStorage.getItem("stateMode");
