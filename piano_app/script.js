@@ -19,7 +19,7 @@ const notes = {
 function playSound(key) {
     const audioElement = new Audio();
     const note = notes[key];
-    audioElement.src = 'sounds/' + note;
+    audioElement.src = 'piano_app/sounds/' + note;
     audioElement.play();
 }
 
