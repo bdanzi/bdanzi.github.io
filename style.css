@@ -56,10 +56,11 @@
 .key-white {
     height: 100%;
     width: 64px;
-    background: linear-gradient(#ffffff 97%,#737373);
+    /* background: linear-gradient(#ffffff 97%,#737373); */
+    background: #ffffff;
     border-right: 2px solid #000000;
     border-left: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    border-bottom: 10px solid #737373;
     border-radius: 0 0 8px 8px;
 }
 
