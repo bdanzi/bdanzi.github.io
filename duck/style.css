@@ -64,20 +64,20 @@ button-duck {
 }
 
 /* stile del bottone solo quando è disabled */
-button-duck:disabled {
+.buttonduck:disabled {
   opacity: 0.6;
   background-color: #dedede;
 }
 
-button-duck:hover {
+.buttonduck:hover {
   transform: scale(1.1);
 }
 
-button-duck:active {
+.buttonduck:active {
   transform: scale(0.8);
 }
 
-button-duck img {
+.buttonduck img {
   vertical-align: middle;
 }
 
