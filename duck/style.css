@@ -57,7 +57,7 @@ header img {
   font-family: 'Roboto', sans-serif; */
 
   .speechduck {
-      position: relative;
+     
       background: #f2a2a2;
       font-family: 'Roboto', sans-serif;
       font-size: 20px;
@@ -65,7 +65,7 @@ header img {
       width: 100%;
       height: 120px;
       border-radius: 10px;
-      padding: 0px;
+      padding: 24px;
   }
   .speechduck:after {
       content: '';
