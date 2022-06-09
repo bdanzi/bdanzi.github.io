@@ -61,7 +61,7 @@ header img {
   height: 56px;
   border-radius: 8px;
   border: none;
-  background-color: #f81669;
+  background-color: transparent;
 }
 
 /* stile del bottone solo quando è disabled */
