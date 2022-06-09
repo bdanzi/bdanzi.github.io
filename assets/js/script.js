@@ -11,15 +11,15 @@ var button_2 = document.getElementById("dark_light_2");
 var button_3 = document.getElementById("dark_light_3");
 var button_4 = document.getElementById("dark_light_4");
 var button_5 = document.getElementById("dark_light_5");
+
+
+function changeImage() {
 button.className=localStorage.getItem("stateMode");
 button_1.className=localStorage.getItem("stateMode");
 button_2.className=localStorage.getItem("stateMode");
 button_3.className=localStorage.getItem("stateMode");
 button_4.className=localStorage.getItem("stateMode");
 button_5.className=localStorage.getItem("stateMode");
-
-function changeImage() {
-
 var currentClass_button = button.className;
 var currentClass_button_1 = button_1.className;
 var currentClass_button_2 = button_2.className;
