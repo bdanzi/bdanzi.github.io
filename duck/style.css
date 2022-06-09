@@ -92,6 +92,7 @@ header img {
 .inputduck {
   width: 100%;
   accent-color: white;
+  border: violet;
 }
 
 .labelduck {
