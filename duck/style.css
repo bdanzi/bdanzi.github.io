@@ -55,7 +55,7 @@ textarea {
 }
 
 /* Bottone play */
-button {
+button-duck {
   width: 64px;
   height: 56px;
   border-radius: 8px;
@@ -64,20 +64,20 @@ button {
 }
 
 /* stile del bottone solo quando è disabled */
-button:disabled {
+button-duck:disabled {
   opacity: 0.6;
   background-color: #dedede;
 }
 
-button:hover {
+button-duck:hover {
   transform: scale(1.1);
 }
 
-button:active {
+button-duck:active {
   transform: scale(0.8);
 }
 
-button img {
+button-duck img {
   vertical-align: middle;
 }
 
