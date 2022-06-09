@@ -5,10 +5,10 @@ speechSynthesis.addEventListener('voiceschanged', function () {
 })
 
 // Raccolgo dalla pagina gli elementi che mi servono
-const textArea = document.querySelector('speechduck');
-const playButton = document.querySelector('buttonduck');
-const pitchBar = document.querySelector('inputduck');
-const duckFigure = document.querySelector('duckfigure');
+const textArea = document.querySelector('.speechduck');
+const playButton = document.querySelector('.buttonduck');
+const pitchBar = document.querySelector('.inputduck');
+const duckFigure = document.querySelector('.duckfigure');
 
 // Se qualcuno clicca il bottone, fa' quello che ti dico.
 playButton.addEventListener('click', function () {
