@@ -41,19 +41,19 @@ header img {
 } */
 
 /* Casella di testo */
-/* .speechduck {
-  margin-top: 32px;
-  margin-bottom: 32px;
+ .speechduck {
+  /* margin-top: 32px;
+  margin-bottom: 32px; */
   width: 100%;
   height: 120px;
   resize: none;
-  outline: none;
-  border: 1px solid #e37b7c;
+  /*outline: none;
+   border: 1px solid #e37b7c;
   border-radius: 16px;
   font-size: 20px;
   padding: 24px;
-  font-family: 'Roboto', sans-serif;
-} */
+  font-family: 'Roboto', sans-serif; */
+} 
 
 
 /* Controlli */
