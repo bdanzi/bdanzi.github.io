@@ -106,11 +106,11 @@ header img {
 }
 
 /* classe animated duck dentro classe talking */
-.talking .animated-duck {
+.talking.animated-duck {
   display: block;
 }
 
 /* classe static duck dentro classe talking */
-.talking .static-duck {
+.talking.static-duck {
   display: none;
 }
