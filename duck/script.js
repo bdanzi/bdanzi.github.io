@@ -24,7 +24,8 @@ function talk() {
   // 1 - Recuperiamo tono di voce e testo
   const text = textArea.value;
   const pitch = pitchBar.value;
-
+  console.log(text)
+  console.log(pitch)
   // 2 - Preparo una frase per il Sintetizzatore vocale
   const utterance = new SpeechSynthesisUtterance(text);
 
