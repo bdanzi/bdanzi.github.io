@@ -51,7 +51,7 @@ header img {
 .controls {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin-bottom: 50px;
 }
 
 /* Bottone play */
