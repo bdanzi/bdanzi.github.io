@@ -1,6 +1,8 @@
 let voices = [];
-speechSynthesis.addEventListener('voiceschanged', function () {
-  voices = speechSynthesis.getVoices();
+var synth = window.speechSynthesis;
+
+synth.addEventListener('voiceschanged', function() {
+  voices = synth.getVoices();
   console.log(voices);
 })
 
@@ -43,7 +45,7 @@ function talk() {
   utterance.voice = femaleVoice;
 
   // facciamo parlare la paperella
-  speechSynthesis.speak(utterance);
+  synth.speak(utterance);
 
   // Quando la paperella inizia a parlare..
   utterance.addEventListener('start', function () {
