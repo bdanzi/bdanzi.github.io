@@ -37,7 +37,7 @@ function talk() {
   utterance.pitch = pitch;
 
   const femaleVoice = voices.find(function (voice) {
-    if (voice.name.includes('Elsa') || voice.name.includes('Alice')) {
+    if (voice.name.includes('Elsa') || voice.name.includes('Alice') || voice.name.includes('Anna') || voice.name.includes('Fiona')) {
       return true;
     }
   });
