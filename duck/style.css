@@ -55,7 +55,7 @@ textarea {
 }
 
 /* Bottone play */
-button-duck {
+.buttonduck {
   width: 64px;
   height: 56px;
   border-radius: 8px;
