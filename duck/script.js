@@ -5,10 +5,10 @@ speechSynthesis.addEventListener('voiceschanged', function () {
 })
 
 // Raccolgo dalla pagina gli elementi che mi servono
-const textArea = document.querySelector('textarea');
-const playButton = document.querySelector('button');
-const pitchBar = document.querySelector('input');
-const duckFigure = document.querySelector('figure');
+const textArea = document.querySelector('speechduck');
+const playButton = document.querySelector('buttonduck');
+const pitchBar = document.querySelector('inputduck');
+const duckFigure = document.querySelector('duckfigure');
 
 // Se qualcuno clicca il bottone, fa' quello che ti dico.
 playButton.addEventListener('click', function () {
@@ -34,7 +34,7 @@ function talk() {
   utterance.pitch = pitch;
 
   const femaleVoice = voices.find(function (voice) {
-    if (voice.name.includes('Elsa')) {
+    if (voice.name.includes('Elsa') || voice.name.includes('Alice')) {
       return true;
     }
   });
