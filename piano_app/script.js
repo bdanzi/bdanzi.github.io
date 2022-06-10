@@ -24,18 +24,19 @@ const notes = {
 
 // Lista frequenze http://www.phy.mtu.edu 
 const frequencies = {
-    do: 233.08,
-    dodiesis: 261.63,
-    re: 277.18,
-    rediesis: 293.66,
-    mi: 311.13,
-    fa: 329.63,
-    fadiesis: 349.23,
-    sol: 369.9,
-    soldiesis: 392.00,
-    la: 415.30,
-    ladiesis: 440.00,
-    si: 466.16
+
+    do: 261.63,
+    dodiesis: 277.18,
+    re: 293.66,
+    rediesis: 311.13,
+    mi: 329.63,
+    fa: 349.23,
+    fadiesis: 369.9,
+    sol: 392.00,
+    soldiesis: 415.30,
+    la: 440.00,
+    ladiesis: 466.16,
+    si: 494.00
 };
 
 function playSound(key) {
