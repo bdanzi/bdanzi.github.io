@@ -50,20 +50,19 @@ header img {
   outline: none;
   border-radius: 16px;
   padding: 24px;
-  /* border: 1px solid #e37b7c;
+  
+}  */
+/* border: 1px solid #e37b7c;
   font-size: 20px;
   font-family: 'Roboto', sans-serif; */
-}  */
-
 
 .speechduck {
     position: relative;
     background: #f2a2a2;
     color: #FFFFFF;
-    font-family: Times New Roman;
     font-size: 20px;
     line-height: 120px;
-    text-align: center;
+    text-align: left;
     width: 250px;
     height: 120px;
     border-radius: 10px;
