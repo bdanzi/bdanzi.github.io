@@ -40,7 +40,7 @@ const frequencies = {
 
 function playSound(key) {
     console.log('Playing: ', key);
-    const audioElement = new Audio();
+    // const audioElement = new Audio();
     const note = notes[key];
     const audioElement = new Audio('piano_app/sounds/' + note);
     audioElement.currentTime = 0;
