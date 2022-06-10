@@ -85,6 +85,15 @@ header img {
   transform: scale(0.8);
 }
 
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button:active {
+  transform: scale(0.8);
+}
+
+
 .buttonduck img {
   vertical-align: middle;
 }
