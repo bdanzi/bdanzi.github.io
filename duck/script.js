@@ -56,7 +56,9 @@ function talk() {
     // Blocco tutti i controlli
     textArea.disabled = true;
     pitchBar.disabled = true;
+    volumeBar.disabled = true;
     playButton.disabled = true;
+    rateBar.disabled = true;
 
     // animiamo la paperella
     duckFigure.classList.add('talking');
@@ -67,6 +69,8 @@ function talk() {
     // Blocco tutti i controlli
     textArea.disabled = false;
     pitchBar.disabled = false;
+    rateBar.disabled = false;
+    volumeBar.disabled = false;
     playButton.disabled = false;
 
     // Riportiamo la paperella statica
