@@ -44,7 +44,7 @@ header img {
  .speechduck {
   margin-top: 32px;
   margin-bottom: 32px; 
-  width: 70%;
+  width: 80%;
   height: 120px;
   resize: none;
   outline: none;
@@ -59,7 +59,7 @@ header img {
 .controls {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 /* Bottone play */
