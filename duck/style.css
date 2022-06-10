@@ -92,12 +92,12 @@ header img {
 /* Controlli del tono */
 
 .pitch-controls {
-  width: 65%;
+  width: 55%;
 }
 
 /* Barra del tono */
 .inputduck {
-  width: 65%;
+  width: 55%;
   accent-color: #e37b7c;
   appearance: #e37b7c;
   border:#e37b7c;
@@ -113,7 +113,7 @@ header img {
 }
 
 .inputduck_rate {
-  width: 65%;
+  width: 55%;
   accent-color: #e37b7c;
   appearance: #e37b7c;
   border:#e37b7c;
@@ -129,7 +129,7 @@ header img {
 }
 
 .inputduck_volume {
-  width: 65%;
+  width: 55%;
   accent-color: #e37b7c;
   appearance: #e37b7c;
   border:#e37b7c;
