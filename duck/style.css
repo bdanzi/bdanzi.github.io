@@ -41,7 +41,7 @@ header img {
 } */
 
 /* Casella di testo */
- /* .speechduck {
+ .speechduck {
   margin-top: 32px;
   margin-bottom: 32px; 
   width: 80%;
@@ -50,37 +50,10 @@ header img {
   outline: none;
   border-radius: 16px;
   padding: 24px;
-  
-}  */
-/* border: 1px solid #e37b7c;
+  /* border: 1px solid #e37b7c;
   font-size: 20px;
   font-family: 'Roboto', sans-serif; */
-
-.speechduck {
-    position: relative;
-    background: #f2a2a2;
-    color: #FFFFFF;
-    font-size: 20px;
-    line-height: 120px;
-    text-align: left;
-    width: 250px;
-    height: 120px;
-    border-radius: 10px;
-    padding: 0px;
-}
-.speechduck:after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 0;
-    z-index: 1;
-    border-style: solid;
-    border-width: 25px 30px 0 0;
-    border-color: #f2a2a2 transparent transparent transparent;
-    bottom: -25px;
-    left: 33%;
-    margin-left: -15px;
-}
+} 
 
 
 /* Controlli */
