@@ -1,3 +1,9 @@
+let interactionEvent;
+if('ontouchend' in document.documentElement) {
+    interactionEvent = 'touchend'; 
+ } else {
+    interactionEvent = 'click';
+ }
 const keyElements = document.querySelectorAll('.key');
 console.log(keyElements);
 
@@ -16,18 +22,52 @@ const notes = {
     si: '12-si.mp3'
 }
 
+// Lista frequenze http://www.phy.mtu.edu 
+const frequencies = {
+    do: 233.08,
+    dodiesis: 261.63,
+    re: 277.18,
+    rediesis: 293.66,
+    mi: 311.13,
+    fa: 329.63,
+    fadiesis: 349.23,
+    sol: 369.9,
+    soldiesis: 392.00,
+    la: 415.30,
+    ladiesis: 440.00,
+    si: 466.16
+};
+
 function playSound(key) {
+    console.log('Playing: ', key);
     const audioElement = new Audio();
     const note = notes[key];
-    audioElement.src = 'piano_app/sounds/' + note;
+    const audioElement = new Audio('piano_app/sounds/' + note);
+    audioElement.currentTime = 0;
+    // audioElement.src = 'piano_app/sounds/' + note;
     audioElement.play();
 }
 
+function playSynth(key) {
+    const ctx = new window.AudioContext();
+    const oscillator = ctx.createOscillator();
+    const note = frequencies[key];
+    const length = 200;
+    gainNode = ctx.createGain();
+    oscillator.type = 'triangle';
+    oscillator.frequency.value = note;
+    oscillator.connect(gainNode);
+    gainNode.connect(ctx.destination);
+    oscillator.start(0);
+    oscillator.stop(ctx.currentTime + (length / 1000 + 0.2));
+    oscillator.onended = () => ctx.close();
+}
 
 keyElements.forEach(function(keyElement) {
     keyElement.addEventListener('click', function() {
         const key = keyElement.id;
-        playSound(key);
+        //playSound(key);
+        playSynth(key);
     });
 });
  
