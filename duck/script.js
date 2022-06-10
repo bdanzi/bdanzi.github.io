@@ -10,6 +10,8 @@ synth.addEventListener('voiceschanged', function() {
 const textArea = document.querySelector('.speechduck');
 const playButton = document.querySelector('.buttonduck');
 const pitchBar = document.querySelector('.inputduck');
+const volumeBar = document.querySelector('.inputduck_volume');
+const rateBar = document.querySelector('.inputduck_rate');
 const duckFigure = document.querySelector('.duckfigure');
 
 // Se qualcuno clicca il bottone, fa' quello che ti dico.
@@ -26,14 +28,16 @@ function talk() {
   // 1 - Recuperiamo tono di voce e testo
   const text = textArea.value;
   const pitch = pitchBar.value;
+  const volume = volumeBar.value;
+  const rate = rateBar.value;
   console.log(text)
   console.log(pitch)
   // 2 - Preparo una frase per il Sintetizzatore vocale
   const utterance = new SpeechSynthesisUtterance(text);
 
   // 3 - specifichiamo altri dettagli della frase
-  utterance.volume = 1;
-  utterance.rate = 1;
+  utterance.volume = volume;
+  utterance.rate = rate;
   utterance.pitch = pitch;
 
   const femaleVoice = voices.find(function (voice) {

@@ -97,7 +97,7 @@ header img {
 
 /* Barra del tono */
 .inputduck {
-  width: 100%;
+  width: 20%;
   accent-color: #e37b7c;
   appearance: #e37b7c;
   border:#e37b7c;
@@ -111,6 +111,39 @@ header img {
   font-size: 14px;
   margin-bottom: 12px;
 }
+
+.inputduck_rate {
+  width: 20%;
+  accent-color: #e37b7c;
+  appearance: #e37b7c;
+  border:#e37b7c;
+  border-radius: 16px;
+  color: black;
+  height: 10px;
+}
+
+.labelduck_rate {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.inputduck_volume {
+  width: 20%;
+  accent-color: #e37b7c;
+  appearance: #e37b7c;
+  border:#e37b7c;
+  border-radius: 16px;
+  color: black;
+  height: 10px;
+}
+
+.labelduck_volume {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
 
 /* Paperelle */
 
