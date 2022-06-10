@@ -47,7 +47,8 @@ const frequencies = {
     soldiesis5: 831.00,
     la5: 880.00,
     ladiesis5: 932.00,
-    si5: 988.00 
+    si5: 988.00,
+    do6: 1046.00
 };
 
 function playSound(key) {
