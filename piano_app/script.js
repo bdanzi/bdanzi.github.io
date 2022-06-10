@@ -24,7 +24,6 @@ const notes = {
 
 // Lista frequenze http://www.phy.mtu.edu 
 const frequencies = {
-
     do: 261.63,
     dodiesis: 277.18,
     re: 293.66,
@@ -37,7 +36,18 @@ const frequencies = {
     la: 440.00,
     ladiesis: 466.16,
     si: 494.00,
-    do5: 523.00
+    do5: 523.00,
+    dodiesis5: 554.00,
+    re5: 587.00,
+    rediesis5: 622.00,
+    mi5: 659.00,
+    fa5: 698.00,
+    fadiesis5: 740.00,
+    sol5: 784.00,
+    soldiesis5: 831.00,
+    la5: 880.00,
+    ladiesis5: 932.00,
+    si5: 988.00 
 };
 
 function playSound(key) {
