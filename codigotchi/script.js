@@ -34,7 +34,7 @@ function onResult(e) {
         audioElement.pause();
         audioElement.currentTime = 0;
         screen.classList.remove(actionClassname);
-    }, 2000);
+    }, 5000);
 }
 
 function onError(e) {
