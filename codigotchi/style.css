@@ -104,14 +104,12 @@ img {
 .commands-codigotchi ul li  {
     font-size: 24px;
     font-weight: bold;
-    text-align: center;
     color: black;
 }
 
 .panels-codigotchi {
     position: relative;
     margin-bottom: 16px;
-    text-align: center;
 }
 
 .panel-codigotchi {
