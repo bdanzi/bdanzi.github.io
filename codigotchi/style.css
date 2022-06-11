@@ -77,15 +77,15 @@ img {
 }
 
 .codigotchi-screen_sleep {
-    background-image: url('codigotchi/images/dormi.gif');
+    background-image: url('./images/dormi.gif');
 }
 
 .codigotchi-screen_eat {
-    background-image: url('codigotchi/images/mangia.gif');
+    background-image: url('./images/mangia.gif');
 }
 
 .codigotchi-screen_dance {
-    background-image: url('codigotchi/images/balla.gif');
+    background-image: url('./images/balla.gif');
 }
 
 .commands-codigotchi {
