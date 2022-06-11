@@ -118,7 +118,6 @@ img {
     transition: transform 0.2s;
     width: 100%;
     border: rgb(244, 207, 248);
-    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -128,19 +127,19 @@ img {
     left: 0;
     visibility: hidden;
     transform: scale(0.1);
-    text-align: center;
+   
 }
 
 .listening .panel-commands-codigotchi {
     visibility: visible;
     transform: scale(1);
-    text-align: center;
+    
 }
 
 .listening .panel-microphone-codigotchi {
     visibility: hidden;
     transform: scale(0.1);
-    text-align: center;
+    
 }
 
 .button-codigotchi {
