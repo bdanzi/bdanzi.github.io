@@ -18,7 +18,7 @@ function onResult(e) {
     const testo = e.results[0][0].transcript;
 
     const action = commands.find(function(command) {
-        console.log(command);
+        console.log(testo)
         return testo.toLowerCase().includes(command);
     });
 
