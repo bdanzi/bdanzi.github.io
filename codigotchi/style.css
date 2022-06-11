@@ -29,7 +29,7 @@ html {
     text-align: center;
 } */
 
-.codigotchi_h2 h2 {
+.codigotchi_h2 {
     font-size: 20px;
     margin-bottom: 16px;
     font-weight: bold;
@@ -37,7 +37,7 @@ html {
     color: black;
 }
 
-.codigotchi_h3 h3 {
+.codigotchi_h3 {
     font-size: 16px;
     margin-bottom: 12px;
     color: #4C6C96;
