@@ -30,6 +30,9 @@ function onResult(e) {
     // Mostro l'animazione della gif per 2 secondi
     setTimeout(function() {
         screen.classList.remove(actionClassname);
+        const audioElement = new Audio('codigotchi/sounds/' + action + '.mp3');
+        audioElement.currentTime = 0;
+        audioElement.play();
     }, 2000);
 }
 
