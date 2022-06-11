@@ -4,7 +4,9 @@ const micBtn = document.getElementById('microphone-codigotchi');
 const screen = document.getElementById('screen-codigotchi');
 const panelsData = document.getElementById('panels-data-codigotchi');
 
-const commands = ['mangia', 'balla', 'dormi'];
+const commands = ['mangia', 'balla', 'dormi','eat','dance','sleep'];
+const commands_it = ['mangia', 'balla', 'dormi'];
+const commands_en = ['eat','dance','sleep'];
 
 // Inizializzazione
 const recognition = new SpeechRecognition();
@@ -21,9 +23,14 @@ function onResult(e) {
         console.log(testo)
         return testo.toLowerCase().includes(command);
     });
+    const action_translated = commands_en.find(function(command) {
+        if(action.includes(command)){
+            return commands_it[command];
+        } 
+    });
 
-    const actionClassname = 'codigotchi-screen_' + action;
-    const audioElement = new Audio('codigotchi/sounds/' + action + '.mp3');
+    const actionClassname = 'codigotchi-screen_' + action_translated;
+    const audioElement = new Audio('codigotchi/sounds/' + action_translated + '.mp3');
     audioElement.currentTime = 0;
     audioElement.play();
     screen.classList.add(actionClassname);
