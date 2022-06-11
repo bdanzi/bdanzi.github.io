@@ -122,6 +122,7 @@ img {
     transition: transform 0.2s;
     width: 100%;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .panel-commands-codigotchi {
@@ -146,7 +147,7 @@ img {
 }
 
 .button-codigotchi {
-    border: none;
+    border: #f71469;
     background-color: #f71469;
     border-radius: 8px;
     cursor: pointer;
