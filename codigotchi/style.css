@@ -72,7 +72,7 @@ img {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    text-align: center;
+
 }
 
 .codigotchi-screen_dormi {
@@ -89,7 +89,6 @@ img {
 
 .commands-codigotchi {
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
 }
 
 .commands-codigotchi ul {

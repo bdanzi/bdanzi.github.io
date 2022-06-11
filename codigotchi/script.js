@@ -31,8 +31,8 @@ function onResult(e) {
     
     // Mostro l'animazione della gif per 2 secondi
     setTimeout(function() {
-        screen.classList.remove(actionClassname);
         audioElement.stop();
+        screen.classList.remove(actionClassname);
     }, 2000);
 }
 
