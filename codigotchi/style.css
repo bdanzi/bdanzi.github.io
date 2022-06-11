@@ -1,0 +1,151 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: linear-gradient(#838ef9, #3535ec);
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+} */
+
+/* main {
+    text-align: center;
+} */
+
+.container_codigotchi {
+    width: 90%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Logo */
+/* header img {
+    width: 56px;
+    text-align: center;
+} */
+
+.codigotchi_h2 h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.codigotchi_h3 h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #4C6C96;
+    text-align: center;
+}
+
+/* p {
+    color: #ffffff;
+    text-align: center;
+
+} */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.codigotchi {
+    width: 230px;
+    margin: 0 auto 24px auto;
+    position: relative;
+    text-align: center;
+}
+
+.codigotchi-screen {
+    position: absolute;
+    top: 118px;
+    left: 56px;
+    height: 120px;
+    width: 120px;
+    background-image: url('./images/static.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.codigotchi-screen_sleep {
+    background-image: url('codigotchi/images/dormi.gif');
+}
+
+.codigotchi-screen_eat {
+    background-image: url('codigotchi/images/mangia.gif');
+}
+
+.codigotchi-screen_dance {
+    background-image: url('codigotchi/images/balla.gif');
+}
+
+.commands-codigotchi {
+    /*  */
+}
+
+.commands-codigotchi ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+
+.commands-codigotchi ul li  {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.panels-codigotchi {
+    position: relative;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.panel-codigotchi {
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px 24px;
+    transition: transform 0.2s;
+    width: 100%;
+    text-align: center;
+}
+
+.panel-commands-codigotchi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    transform: scale(0.1);
+    text-align: center;
+}
+
+.listening .panel-commands-codigotchi {
+    visibility: visible;
+    transform: scale(1);
+    text-align: center;
+}
+
+.listening .panel-microphone-codigotchi {
+    visibility: hidden;
+    transform: scale(0.1);
+    text-align: center;
+}
+
+.button-codigotchi {
+    border: none;
+    background-color: #f71469;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px 16px;
+    margin: 12px;
+    text-align: center;
+}

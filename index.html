@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="piano_app/style.css">
 	<link rel="stylesheet" href="duck/style.css" />
+	<link rel="stylesheet" href="codigotchi/style.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	<!-- Icon -->
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/apple-touch-icon-57x57.png" />
@@ -183,13 +184,40 @@
 								  <label class="labelduck_rate">Rate</label>
 								  <input class="inputduck_rate" type="range" min="0.1" max="2" step="0.1" />
 								</div>
-							  </div>
-					  
-							  
-							
+							  </div> 
 						</div>
 					</br>
-
+					<div class="container_codigotchi">
+							<!-- Codigotchi e schermo -->
+							<h3 class="major"><img src="codigotchi/images/icon.png" alt="codigotchi app logo" height="30" width="30">  Codigotchi App @Boolean Coding Week 2022</h3>
+							<section class="codigotchi">
+								<img src="codigotchi/images/codigotchi.png" alt="">
+								<div id="screen-codigotchi" class="codigotchi-screen"></div>
+							</section>
+							<!-- Pannelli -->
+							<section id="panels-data-codigotchi" class="panels-codigotchi">
+								<!-- Pannello Microfono -->
+								<div class="panel-codigotchi panel-microphone-codigotchi">
+									<button id="microphone-codigotchi" class="button-codigotchi">
+										<img src="codigotchi/images/mic.png" alt="microphone-codigotchi">
+									</button>
+									<h2 class="codigotchi_h2">Turn on the microphone</h2> 
+								</div>
+				
+								<!-- Pannello Comandi -->
+								<div class="panel-codigotchi panel-commands-codigotchi">                
+									<h2>Interact with vocal commands!</h2> 
+									<h3 class="codigotchi_h3">Comandi supportati</h3>                
+									<div class="commands-codigotchi">
+										<ul>
+											<li>Eat</li>
+											<li>Dance</li>
+											<li>Sleep</li>
+										</ul>            
+									</div>
+								</div>            
+							</section>
+					</div>
 						<h3 class="major">Other Educational Courses <br /></h3>
 						<ul>
 							<li> <h4>2021</h4> 
@@ -483,6 +511,7 @@ me.Sleep();
 				</div>
 				
 				<!-- Logica JS -->
+				<script src="codigotchi/script.js"></script>
 				<script src="duck/script.js"></script>
 				<script src="piano_app/script.js"></script>
 				<script src="assets/js/jquery.min.js"></script>
