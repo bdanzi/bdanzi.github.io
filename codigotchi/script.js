@@ -26,7 +26,10 @@ function onResult(e) {
     const action_translated = commands_en.find(function(command) {
         if(action.includes(command)){
             return commands_it[command];
-        } 
+        }
+        else{
+            return action;
+        }
     });
 
     const actionClassname = 'codigotchi-screen_' + action_translated;
