@@ -1,10 +1,13 @@
 let voices = [];
 var synth = window.speechSynthesis;
 
+if ('voiceschanged' in synth){
 synth.addEventListener('voiceschanged', function() {
   voices = synth.getVoices();
   console.log(voices);
 })
+} else { voices = synth.getVoices();}
+
 
 // Raccolgo dalla pagina gli elementi che mi servono
 const textArea = document.querySelector('.speechduck');
