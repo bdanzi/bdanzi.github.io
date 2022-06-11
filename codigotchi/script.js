@@ -4,7 +4,7 @@ const micBtn = document.getElementById('microphone-codigotchi');
 const screen = document.getElementById('screen-codigotchi');
 const panelsData = document.getElementById('panels-data-codigotchi');
 
-const commands = ['eat', 'dance', 'sleep'];
+const commands = ['mangia', 'balla', 'dormi'];
 
 // Inizializzazione
 const recognition = new SpeechRecognition();

@@ -76,15 +76,15 @@ img {
     text-align: center;
 }
 
-.codigotchi-screen_sleep {
+.codigotchi-screen_dormi {
     background-image: url('./images/dormi.gif');
 }
 
-.codigotchi-screen_eat {
+.codigotchi-screen_mangia {
     background-image: url('./images/mangia.gif');
 }
 
-.codigotchi-screen_dance {
+.codigotchi-screen_balla {
     background-image: url('./images/balla.gif');
 }
 
@@ -99,12 +99,14 @@ img {
     justify-content: space-between;
     list-style: none;
     text-align: center;
+    color: black;
 }
 
 .commands-codigotchi ul li  {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 .panels-codigotchi {
