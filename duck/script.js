@@ -1,7 +1,7 @@
 let voices = [];
 var synth = window.speechSynthesis;
 
-if ('voiceschanged' in synth){
+if ('voiceschanged' in speechSynthesis){
 synth.addEventListener('voiceschanged', function() {
   voices = synth.getVoices();
   console.log(voices);
