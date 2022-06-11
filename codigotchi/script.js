@@ -5,8 +5,7 @@ const screen = document.getElementById('screen-codigotchi');
 const panelsData = document.getElementById('panels-data-codigotchi');
 
 const commands = ['mangia', 'balla', 'dormi'];
-const commands_it = ['mangia', 'balla', 'dormi'];
-const commands_en = ['eat','dance','sleep'];
+
 
 // Inizializzazione
 const recognition = new SpeechRecognition();
@@ -18,7 +17,6 @@ function onStartListening() {
 
 function onResult(e) {    
     const testo = e.results[0][0].transcript;
-
     const action = commands.find(function(command) {
         console.log(testo)
         return testo.toLowerCase().includes(command);
