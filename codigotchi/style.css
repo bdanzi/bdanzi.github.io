@@ -87,7 +87,8 @@ img {
 }
 
 .commands-codigotchi {
-    /*  */
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
 }
 
 .commands-codigotchi ul {
