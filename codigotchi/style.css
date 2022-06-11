@@ -115,7 +115,7 @@ img {
 }
 
 .panel-codigotchi {
-    background-color: rgb(244, 207, 248);
+    background: linear-gradient(hsl(294, 75%, 89%) 70%, white);
     border-radius: 10px;
     padding: 16px 24px;
     transition: transform 0.2s;
