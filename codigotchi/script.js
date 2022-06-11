@@ -23,15 +23,14 @@ function onResult(e) {
     });
 
     const actionClassname = 'codigotchi-screen_' + action;
-
+    const audioElement = new Audio('codigotchi/sounds/' + action + '.mp3');
+    audioElement.currentTime = 0;
+    audioElement.play();
     screen.classList.add(actionClassname);
     panelsData.classList.remove('listening');
     
     // Mostro l'animazione della gif per 2 secondi
     setTimeout(function() {
-        const audioElement = new Audio('codigotchi/sounds/' + action + '.mp3');
-        audioElement.currentTime = 0;
-        audioElement.play();
         screen.classList.remove(actionClassname);
         audioElement.stop();
     }, 2000);
