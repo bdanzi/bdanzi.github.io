@@ -20,7 +20,7 @@ html {
     max-width: 720px;
     margin: 0 auto;
     padding: 0px;
-    
+    text-align: center;
 }
 
 /* Logo */
@@ -72,7 +72,7 @@ img {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-
+    text-align: center;
 }
 
 .codigotchi-screen_dormi {
@@ -98,20 +98,20 @@ img {
     justify-content: space-between;
     list-style: none;
     color: black;
-   
+    text-align: center;
 }
 
 .commands-codigotchi ul li  {
     font-size: 24px;
     font-weight: bold;
     color: black;
-   
+    text-align: center;
 }
 
 .panels-codigotchi {
     position: relative;
     margin-bottom: 16px;
-
+    text-align: center;
 }
 
 .panel-codigotchi {
@@ -131,21 +131,21 @@ img {
     left: 0;
     visibility: hidden;
     transform: scale(0.1);
-   
+    text-align: center;
    
 }
 
 .listening .panel-commands-codigotchi {
     visibility: visible;
     transform: scale(1);
-    
+    text-align: center;
     
 }
 
 .listening .panel-microphone-codigotchi {
     visibility: hidden;
     transform: scale(0.1);
-   
+    text-align: center;
 }
 
 .button-codigotchi {
