@@ -61,24 +61,32 @@
 /* Pannello dei consigli */
 
 .panel-meteo {
-  background-color: #ffffff;
+  /* background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
-  border: rgba(164, 99, 99, 1);
+  border: rgba(164, 99, 99, 1); */
+  margin-top: 32px;
+  margin-bottom: 32px; 
+  width: 80%;
+  height: 120px;
+  resize: none;
+  outline: none;
+  border-radius: 16px;
+  padding: 24px;
   transition: opacity 0.5s, transform 0.5s;
 }
 
 .meteo-h4 {
   font-size: 16px;
   font-weight: normal;
-  color: rgba(164, 99, 99, 1); 
+  /* color: rgba(164, 99, 99, 1);  */
   margin-bottom: 12px;
 }
 
 .panel-meteo p {
   font-size: 16px;
   font-weight: normal;
-  color: steelblue; 
+  /* color: steelblue;  */
   margin-bottom: 12px;
 }
 /* Effetti di caricamento */
