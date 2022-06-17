@@ -3,6 +3,7 @@ const weatherIcon = document.querySelector('.weather-icon');
 const weatherLocation = document.querySelector('.weather-location');
 const weatherTemperature = document.querySelector('.weather-temperature');
 const suggestionParagraph = document.querySelector('.suggestion-meteo');
+const weatherDescription = document.querySelector('.description-meteo');
 
 
 // Questo è il tag <html>
@@ -62,6 +63,7 @@ function onSuccess(position) {
       weatherIcon.alt = description;
       weatherIcon.src = `meteo/images/${iconCode}.png`;
       suggestionParagraph.innerHTML = suggestion;
+      weatherDescription.innerHTML = description;
       console.log(suggestionParagraph.innerHTML)
        // Rimuoviamo la classe 'js-loading'
        rootElement.classList.remove('js-loading');
