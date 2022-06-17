@@ -68,7 +68,7 @@
   transition: opacity 0.5s, transform 0.5s;
 }
 
-.panel-meteo h4 {
+.panel-meteo body h4 {
   font-size: 16px;
   font-weight: normal;
   color: steelblue; 
