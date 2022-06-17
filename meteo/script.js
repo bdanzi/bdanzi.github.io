@@ -28,7 +28,7 @@ function onSuccess(position) {
   const latitude = position.coords.latitude;
   const longitude = position.coords.longitude;
   const apiKey = 'bd832622acc99b03e95f5648052a97cf';
-  const language = 'it';
+  const language = 'en-US';
   const units = 'metric';
   const endpoint = 'https://api.openweathermap.org/data/2.5/weather';
 
@@ -76,24 +76,24 @@ function onSuccess(position) {
 // Funzione per recuperare il suggerimento giusto
 function getSuggestion(iconCode) {
   const suggestions = {
-    '01d': 'Ricordati la crema solare!',
-    '01n': 'Buonanotte!',
-    '02d': 'Oggi il sole va e viene...',
-    '02n': 'Attenti ai lupi mannari...',
-    '03d': 'Luce perfetta per fare foto!',
-    '03n': 'Dormi sereno :)',
-    '04d': 'Che cielo grigio :(',
-    '04n': 'Non si vede nemmeno la luna!',
-    '09d': 'Prendi l\'ombrello',
-    '09n': 'Copriti bene!',
-    '10d': 'Prendi l\'ombrello',
-    '10n': 'Copriti bene!',
-    '11d': 'Attento ai fulmini!',
-    '11n': 'I lampi accendono la notte!',
-    '13d': 'Esci a fare un pupazzo di neve!',
-    '13n': 'Notte perfetta per stare sotto il piumone!',
-    '50d': 'Accendi i fendinebbia!',
-    '50n': 'Guida con prudenza!',
+    '01d': 'Remember the sunscreen!',
+    '01n': 'Goodnight!',
+    '02d': 'Today the sun comes and goes ...',
+    '02n': 'Beware of werewolves ...',
+    '03d': 'Perfect light for taking pictures!',
+    '03n': 'Sleep well :)',
+    '04d': 'What a gray sky :(',
+    '04n': 'You cannot even see the moon!',
+    '09d': 'Take the umbrella',
+    '09n': 'Cover up!',
+    '10d': 'Take the umbrella',
+    '10n': 'Cover up!',
+    '11d': 'Watch out for lightning!',
+    '11n': 'Lightning lights up the night!',
+    '13d': 'Go out and make a snowman!',
+    '13n': 'Perfect night to be under the duvet!',
+    '50d': 'Turn on the fog lights!',
+    '50n': 'Drive carefully!',
   }
 
   return suggestions[iconCode];
