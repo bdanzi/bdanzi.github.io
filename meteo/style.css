@@ -68,7 +68,7 @@
   transition: opacity 0.5s, transform 0.5s;
 }
 
-.panel-meteo h4 {
+.meteo-h4 {
   font-size: 16px;
   font-weight: normal;
   color: rgba(164, 99, 99, 1); 
