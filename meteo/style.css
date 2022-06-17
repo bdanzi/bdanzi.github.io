@@ -10,10 +10,11 @@
  main {
   font-family: 'Roboto', sans-serif;
   line-height: 1;
-  color: black;
-  background: linear-gradient(#eaedfd, #89a4f8);
+  /* color: black;
+  background: linear-gradient(#eaedfd, #89a4f8); */
   height: 100%;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+  text-align: center;
 } 
 
 /* Container */
@@ -50,6 +51,7 @@
 .weather-location {
   font-size: 18px;
   font-weight: bold;
+  color:blueviolet;
 }
 
 .weather-temperature {
