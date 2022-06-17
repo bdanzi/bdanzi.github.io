@@ -39,7 +39,7 @@
 /* Informazioni meteo */
 
 .weather-info {
-  margin-bottom: 32px;
+  margin-bottom: 12px;
 }
 
 .weather-icon {
@@ -51,7 +51,7 @@
 .weather-location {
   font-size: 18px;
   font-weight: bold;
-  color:blueviolet;
+ 
 }
 
 .weather-temperature {
