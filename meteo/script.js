@@ -6,7 +6,7 @@ const suggestionParagraph = document.querySelector('.suggestion-meteo');
 
 
 // Questo è il tag <html>
-const rootElement = document.documentElement;
+const rootElement = document.querySelector('.js-loading');
 
 // Cercare di recuperare la posizione
 window.navigator.geolocation.getCurrentPosition(onSuccess, onError);
@@ -55,15 +55,15 @@ function onSuccess(position) {
 
       // Prepariamo il consiglio giusto.
       const suggestion = getSuggestion(iconCode);
-      // Rimuoviamo la classe 'js-loading'
-      rootElement.classList.remove('js-loading');
+     
       // Inseriamo questi dati dove vogliamo mostrarli
       weatherLocation.innerText = locationName;
       weatherTemperature.innerText = `${temperature}°`;
       weatherIcon.alt = description;
       weatherIcon.src = `meteo/images/${iconCode}.png`;
       suggestionParagraph.innerHTML = suggestion;
-
+       // Rimuoviamo la classe 'js-loading'
+       rootElement.classList.remove('js-loading');
       
     });
 }
