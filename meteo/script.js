@@ -62,7 +62,7 @@ function onSuccess(position) {
       weatherIcon.alt = description;
       weatherIcon.src = `meteo/images/${iconCode}.png`;
       suggestionParagraph.innerHTML = suggestion;
-      console.log(suggestion.suggestionParagraph.innerHTML)
+      console.log(suggestionParagraph.innerHTML)
        // Rimuoviamo la classe 'js-loading'
        rootElement.classList.remove('js-loading');
       
