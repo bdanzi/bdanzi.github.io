@@ -67,13 +67,12 @@
   border: rgba(164, 99, 99, 1); */
   margin-top: 32px;
   margin-bottom: 32px; 
-  width: 100%;
+  width: 80%;
   height: 120px;
   resize: none;
   outline: none;
   border-radius: 16px;
   padding: 24px;
-  border: white;
   transition: opacity 0.5s, transform 0.5s;
 }
 
