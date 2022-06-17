@@ -60,7 +60,7 @@ function onSuccess(position) {
       weatherLocation.innerText = locationName;
       weatherTemperature.innerText = `${temperature}°`;
       weatherIcon.alt = description;
-      weatherIcon.src = `images/${iconCode}.png`;
+      weatherIcon.src = `./images/${iconCode}.png`;
       suggestionParagraph.innerHTML = suggestion;
 
       // Rimuoviamo la classe 'js-loading'
