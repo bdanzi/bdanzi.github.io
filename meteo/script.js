@@ -55,7 +55,8 @@ function onSuccess(position) {
 
       // Prepariamo il consiglio giusto.
       const suggestion = getSuggestion(iconCode);
-
+      // Rimuoviamo la classe 'js-loading'
+      rootElement.classList.remove('js-loading');
       // Inseriamo questi dati dove vogliamo mostrarli
       weatherLocation.innerText = locationName;
       weatherTemperature.innerText = `${temperature}°`;
@@ -63,8 +64,7 @@ function onSuccess(position) {
       weatherIcon.src = `meteo/images/${iconCode}.png`;
       suggestionParagraph.innerHTML = suggestion;
 
-      // Rimuoviamo la classe 'js-loading'
-      rootElement.classList.remove('js-loading');
+      
     });
 }
 
