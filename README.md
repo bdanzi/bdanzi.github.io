@@ -2,9 +2,8 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![CCA 3.0 License][license-shield]][html5up.net/license]
+[![LinkedIn][linkedin-shield]][www.linkedin.com/in/brunella-d-anzi]
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
