@@ -69,6 +69,6 @@ aj@lkn.io | @ajlkn
 [license-url]: https://github.com/bdanzi/bdanzi.github.io/blob/master/README.md
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: www.linkedin.com/in/brunella-d-anzi
+[linkedin-url]: https://linkedin.com/in/brunella-d-anzi
 
 
