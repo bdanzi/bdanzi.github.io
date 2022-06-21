@@ -2,8 +2,8 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![CCA 3.0 License][license-shield]][license-shield]
-[![LinkedIn][linkedin-shield]][linkedin-shield]
+[![CCA 3.0 License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
