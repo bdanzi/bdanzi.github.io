@@ -3,7 +3,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![CCA 3.0 License][license-shield]][license-shield]
-[![LinkedIn][linkedin-shield]][www.linkedin.com/in/brunella-d-anzi]
+[![LinkedIn][linkedin-shield]][linkedin-shield]
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
