@@ -51,3 +51,24 @@ you can use for pretty much whatever.
 AJ
 aj@lkn.io | @ajlkn
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/bdanzi/bdanzi.github.io.svg?style=for-the-badge
+[contributors-url]: https://github.com/bdanzi/bdanzi.github.io/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/bdanzi/bdanzi.github.io.svg?style=for-the-badge
+[forks-url]: https://github.com/bdanzi/bdanzi.github.io/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/bdanzi/bdanzi.github.io.svg?style=for-the-badge
+[stars-url]: https://github.com/MachineLearningJournalClub/GAMELEON/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/bdanzi/bdanzi.github.io.svg?style=for-the-badge
+[issues-url]: https://github.com/MachineLearningJournalClub/GAMELEON/issues
+
+[license-shield]: https://img.shields.io/github/license/bdanzi/bdanzi.github.io.svg?style=for-the-badge
+[license-url]: https://github.com/bdanzi/bdanzi.github.io/blob/master/LICENSE
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/company/machine-learning-journal-club/
+
+
