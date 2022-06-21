@@ -63,10 +63,10 @@ aj@lkn.io | @ajlkn
 [stars-url]: https://github.com/MachineLearningJournalClub/GAMELEON/stargazers
 
 [issues-shield]: https://img.shields.io/github/issues/bdanzi/bdanzi.github.io.svg?style=for-the-badge
-[issues-url]: https://github.com/MachineLearningJournalClub/GAMELEON/issues
+[issues-url]: https://github.com/bdanzi/bdanzi.github.io/issues
 
 [license-shield]: https://img.shields.io/github/license/bdanzi/bdanzi.github.io.svg?style=for-the-badge
-[license-url]: https://github.com/bdanzi/bdanzi.github.io/blob/master/LICENSE
+[license-url]: https://github.com/bdanzi/bdanzi.github.io/blob/master/README.md
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/machine-learning-journal-club/
