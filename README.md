@@ -67,7 +67,7 @@ aj@lkn.io | @ajlkn
 [issues-url]: https://github.com/bdanzi/bdanzi.github.io/issues
 
 [license-shield]: https://img.shields.io/github/license/bdanzi/bdanzi.github.io.svg?style=for-the-badge
-[license-url]: [https://github.com/bdanzi/bdanzi.github.io/blob/master/LICENCE.txt](https://github.com/bdanzi/bdanzi.github.io/blob/main/LICENSE.txt)
+[license-url]: https://github.com/bdanzi/bdanzi.github.io/blob/main/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/brunella-d-anzi
