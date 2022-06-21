@@ -60,7 +60,7 @@ aj@lkn.io | @ajlkn
 [forks-url]: https://github.com/bdanzi/bdanzi.github.io/network/members
 
 [stars-shield]: https://img.shields.io/github/stars/bdanzi/bdanzi.github.io.svg?style=for-the-badge
-[stars-url]: https://github.com/MachineLearningJournalClub/GAMELEON/stargazers
+[stars-url]: https://github.com/bdanzi/bdanzi.github.io/stargazers
 
 [issues-shield]: https://img.shields.io/github/issues/bdanzi/bdanzi.github.io.svg?style=for-the-badge
 [issues-url]: https://github.com/bdanzi/bdanzi.github.io/issues
@@ -69,6 +69,6 @@ aj@lkn.io | @ajlkn
 [license-url]: https://github.com/bdanzi/bdanzi.github.io/blob/master/README.md
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/company/machine-learning-journal-club/
+[linkedin-url]: www.linkedin.com/in/brunella-d-anzi
 
 
