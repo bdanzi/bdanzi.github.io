@@ -13,6 +13,14 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 Demo images courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
 
+# Content 
+
+- About 
+- Education and Experience 
+- Talks and Publications 
+- Teaching and Awards
+- Photos 
+- Contact
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
