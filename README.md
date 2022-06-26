@@ -7,7 +7,7 @@
 
 # Website based on Ethereal theme by HTML5 UP
 
-html5up.net | @ajlkn [@bdanzi](https://github.com/bdanzi)
+html5up.net | [@ajlkn](https://github.com/ajlkn) [@bdanzi](https://github.com/bdanzi)
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 Demo images courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
