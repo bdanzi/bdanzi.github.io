@@ -17,7 +17,7 @@ you can use for pretty much whatever.
 ## Website Content
 
 - About 
-- Education and Experience (Javascript-based applications are inserted in this section under the Coding Week 2022 school)
+- Education and Experience (Javascript-based applications are inserted in this section under the Coding Week 2022 School)
 - Talks and Publications 
 - Teaching and Awards
 - Photos 
