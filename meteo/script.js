@@ -16,7 +16,7 @@ window.navigator.geolocation.getCurrentPosition(onSuccess, onError);
 // Funzione da eseguire in caso di errore
 function onError(error) {
   console.error(error);
-  weatherLocation.innerText = 'Devi attivare la geolocalizazione';
+  weatherLocation.innerText = 'Please activate your localization to make the Weather App working properly!';
 }
 
 
@@ -76,7 +76,7 @@ function onSuccess(position) {
 function getSuggestion(iconCode) {
   const suggestions = {
     '01d': 'Remember the sunscreen!',
-    '01n': 'Goodnight!',
+    '01n': 'Good night to walk around!',
     '02d': 'Today the sun comes and goes ...',
     '02n': 'Beware of werewolves ...',
     '03d': 'Perfect light for taking pictures!',
