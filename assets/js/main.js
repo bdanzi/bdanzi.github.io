@@ -13,7 +13,7 @@
 				keyboardShortcuts: {
 
 					// If true, enables scrolling via keyboard shortcuts.
-						enabled: true,
+						enabled: false,
 
 					// Sets the distance to scroll when using the left/right arrow keys.
 						distance: 50
@@ -24,7 +24,7 @@
 				scrollWheel: {
 
 					// If true, enables scrolling via the scroll wheel.
-						enabled: true,
+						enabled: false,
 
 					// Sets the scroll wheel factor. (Ideally) a value between 0 and 1 (lower = slower scroll, higher = faster scroll).
 						factor: 1
@@ -46,7 +46,7 @@
 				dragging: {
 
 					// If true, enables scrolling by dragging the main wrapper with the mouse.
-						enabled: true,
+						enabled: false,
 
 					// Sets the momentum factor. Must be a value between 0 and 1 (lower = less momentum, higher = more momentum, 0 = disable momentum scrolling).
 						momentum: 0.875,
@@ -68,6 +68,7 @@
 		var	$window = $(window),
 			$document = $(document),
 			$body = $('body'),
+			$panel = $('panel'),
 			$html = $('html'),
 			$bodyHtml = $('body,html'),
 			$wrapper = $('#wrapper');
@@ -87,7 +88,29 @@
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
+				$(".loader-wrapper").hide();
 				$body.removeClass('is-preload');
+				$wrapper.css({
+					"-moz-transform": "translateX(3rem)",
+					"-webkit-transform": "translateX(3rem)",
+					"-ms-transform": "translateX(3rem)",
+					"transform": "translateX(3rem)",
+					"opacity": "1.0"
+					  }, 1 );
+					//   $("body h1, body h2, body h3, body h4, body h5, body h6,body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode ").css({
+					// 	"animation": "moverY 2s linear 1",
+					// 	// "animation-delay": "15ms, 25ms, 35ms, 45ms"
+					// 		  }, 1 );
+						// $("body p, body span, body strong").css({
+						// "animation": "moverX 3s linear 1",
+						// // "animation-delay": "10ms, 20ms, 30ms, 40ms"
+						// 	  }, 1 );
+							  $("body ul").css({
+								"animation": "bump_normal 2s linear 1",
+								// "animation-delay": "10ms, 20ms, 30ms, 40ms"
+									  }, 1 );
+									  
+								
 			}, 100);
 		});
 
@@ -95,16 +118,14 @@
 
 		// Mobile: Revert to native scrolling.
 			if (browser.mobile) {
-
 				// Disable all scroll-assist features.
 					settings.keyboardShortcuts.enabled = false;
 					settings.scrollWheel.enabled = false;
 					settings.scrollZones.enabled = false;
 					settings.dragging.enabled = false;
-
 				// Re-enable overflow on body.
 					$body.css('overflow-x', 'auto');
-
+					$body.css('overflow-y', 'auto');
 			}
 
 		// IE: Various fixes.
