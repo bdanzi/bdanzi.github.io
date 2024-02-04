@@ -1,0 +1,149 @@
+/*
+    Colori:
+    color blue: #3535EC;
+    color blue dark: #120945;
+    color gray: #D4D7F5;
+    color-green: #306753;
+    color pink: #DE7EB6;
+    color yellow: #F2AD41;
+    color white: #ffffff;
+*/
+
+/* CSS Reset */
+
+.container-xmas {
+    width: 350px;
+    margin: 32px auto 0 auto;
+   
+}
+.container-xmas img {
+    max-width: 100%;
+   
+}
+
+.container-xmas html {
+    background-color: #3535EC;
+    font-family: 'Livvic', sans-serif;
+    line-height: 1;
+}
+
+.xmas-stage {
+    position: relative;
+    height: 600px;
+}
+
+.panel-xmas {
+    background-color: #120945;
+    padding: 16px 24px;
+    border-radius: 8px;
+    
+    position: absolute;
+    top: 65px;
+    right:2px;
+    left:2px;
+    width: 95%;
+}
+
+h2 {
+    color: #DE7EB6;
+    
+}
+
+.counter-xmas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter-xmas-block {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+.counter-xmas-block:last-child {
+    color: #F2AD41;
+}
+.counter-xmas-block-number {
+    font-size: 48px;
+}
+.counter-xmas-block-label {
+    font-size: 20px;
+}
+
+/* Regali */
+.gift-xmas {
+    position: absolute;
+    width: 120px;
+}
+.gift_1-xmas {
+    bottom: 50px;
+    right: 30px;
+}
+.gift_2-xmas {
+    bottom: 50px;
+    left: 36px;
+    width: 120px;
+}
+
+.gift_3-xmas {
+    bottom: 110px;
+    left: 68px;
+    width: 60px;
+}
+/* Palline */
+.ball-xmas {
+    position: absolute;
+    width: 65px;
+}
+.ball_1-xmas {
+    top: 340px;
+    left: 86px;
+}
+.ball_2-xmas {
+    top: 274px;
+    left: 110px;
+}
+.ball_3-xmas {
+    top: 270px;
+    right: 102px;
+}
+
+.ball_4-xmas {
+    top: 360px;
+    right: 75px;
+}
+
+.ball_5-xmas {
+    top: 326px;
+    left: 155px;
+}
+
+.gift-xmas:hover {
+    animation-name: jingle;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.ball-xmas:hover {
+    animation-name: bump;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* Animation */
+@keyframes jingle {
+    from {
+        transform: rotate(-30deg);
+    }
+    to {
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes bump {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
