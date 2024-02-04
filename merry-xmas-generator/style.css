@@ -1,0 +1,94 @@
+/** COLOR PALETTE & FONT 
+* blue: #3535ec;
+* blue-dark: #120945;
+* gray: #d4d7f5;
+* green: #306753;
+* pink: #de7eb6;
+* font: Livvic, sans-serif;
+*/
+
+/* CSS Reset */
+
+.container-merry-xmas-generator html {
+    background-color: #120945;
+    font-family: Livvic, sans-serif;
+    line-height: 1;
+}
+
+.container-merry-xmas-generator h1 {
+    font-size: 26px;
+    color: white;
+    margin: 16px;
+}
+
+.container-merry-xmas-generator img {
+    max-width: 100%;
+}
+
+.container-merry-xmas-generator {
+    width: 300px;
+    margin: 24px auto 0 auto;
+    padding: 2px;
+}
+
+.container-merry-xmas-generator header {
+    text-align: center;
+}
+
+.container-merry-xmas-generator .preview {
+    width: 280px;
+    height: 280px;
+    background-color: #3535ec;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.preview > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.preview-sender {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 129, 129, 0.7);
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-merry-xmas-generator .button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-merry-xmas-generator .primary-button {
+    background-color: #de7eb6;
+}
+
+.container-merry-xmas-generator .button-secondary {
+    background-color: #306753;
+}
+
+.container-merry-xmas-generator .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-merry-xmas-generator .actions > .button {
+    width: 48%;
+}
+
+.container-merry-xmas-generator input[type="text"] {
+    font-family: Livvic, sans-serif;
+    padding: 12px;
+}
+
+.container-merry-xmas-generator .controls > * {
+    width: 100%;
+    margin-bottom: 16px;
+}
