@@ -4,7 +4,7 @@
 
 // Configurazione di ChatGPT
 const API_BASE_URL = 'https://api.openai.com/v1';
-const API_KEY = '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'; // Inserisci qui il valore della API_KEY
+const API_KEY = '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'; // Inserisci qui il valore della API_KEY
 const GPT_MODEL = 'gpt-3.5-turbo';
 
 // Recuperiamo gli elementi principali dalla pagina
@@ -72,6 +72,9 @@ async function setStage() {
 
   // 3. Nascondere il loader
   loader.classList.add('hidden');
+  if (!gptResponse.choices || gptResponse.choices.length === 0) {
+    throw new Error("No choices found in GPT response.");
+  }
 
   // 4. Prendiamo il messaggio di chatGPT e lo inseriamo nello storico chat
   const message = gptResponse.choices[0].message;
