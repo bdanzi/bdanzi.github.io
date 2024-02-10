@@ -4,7 +4,7 @@
 
 // Configurazione di ChatGPT
 const API_BASE_URL = 'https://api.openai.com/v1';
-const API_KEY = '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'; // Inserisci qui il valore della API_KEY
+const API_KEY = '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'; // Inserisci qui il valore della API_KEY
 const GPT_MODEL = 'gpt-3.5-turbo';
 
 // Recuperiamo gli elementi principali dalla pagina
