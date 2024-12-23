@@ -231,12 +231,35 @@ function runGameFlow() {
   scrollObstacles();
 }
 
+// # FUNZIONI DI RESET DEL GIOCO
+function resetGame() {
+  // Ripristina la griglia
+  gridMatrix.forEach(row => row.fill(''));
+
+  // Ripristina il punteggio
+  score = 0;
+  scoreCounter.innerText = score;
+
+  // Ripristina il turbo
+  turbo = 1;
+  turboButton.innerHTML = `<img src="images/gauge-1.png">`;
+
+  // Ripristina la posizione del kart
+  kartPosition = { y: 7, x: 3 };
+
+  // Nascondi la schermata di fine gioco
+  endGameScreen.classList.add('hidden');
+
+  // Avvia di nuovo il flusso di gioco
+  gameLoop = setInterval(runGameFlow, speed);
+}
+
 // # CONTROLLI DI GIOCO
 // Click sul bottone turbo
 turboButton.addEventListener('click', turboBoost);
 
 // Click sul bottone gioca ancora
-playAgainButton.addEventListener('click', function () { location.reload() });
+playAgainButton.addEventListener('click', resetGame);
 
 // Click sul bottone sinistro
 leftButton.addEventListener('click', function () { moveKart('left') });
