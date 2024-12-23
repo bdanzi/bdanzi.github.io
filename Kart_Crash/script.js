@@ -180,7 +180,7 @@ function turboBoost() {
   // Se non siamo già al massimo
   if (turbo < 4) {
     // Cambiamo l'immagine' e aumentiamo il turbo per aumentare la lancetta
-    turboButton.innerHTML = `<img src="images/gauge-${++turbo}.png">`;
+    turboButton.innerHTML = `<img src="Kart_Crash/images/gauge-${++turbo}.png">`;
 
     // incremento la velocità 
     incrementSpeed();
@@ -234,7 +234,17 @@ function runGameFlow() {
 // # FUNZIONI DI RESET DEL GIOCO
 function resetGame() {
   // Ripristina la griglia
-  gridMatrix.forEach(row => row.fill(''));
+  const gridMatrix = [
+    ['', '', '', '', '', 'grass', ''],
+    ['', 'cones', '', '', '', '', 'fence'],
+    ['', '', 'rock', '', '', '', ''],
+    ['fence', '', '', '', '', '', ''],
+    ['', '', 'grass', '', '', 'water', ''],
+    ['', '', '', '', 'cones', '', ''],
+    ['', 'water', '', '', '', '', ''],
+    ['', '', '', '', '', '', ''],
+    ['', '', '', '', '', 'rock', ''],
+  ];
 
   // Ripristina il punteggio
   score = 0;
@@ -242,7 +252,7 @@ function resetGame() {
 
   // Ripristina il turbo
   turbo = 1;
-  turboButton.innerHTML = `<img src="images/gauge-1.png">`;
+  turboButton.innerHTML = `<img src="Kart_Crash/images/gauge-1.png">`;
 
   // Ripristina la posizione del kart
   kartPosition = { y: 7, x: 3 };
