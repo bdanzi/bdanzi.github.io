@@ -145,12 +145,10 @@ a.button {
 	height: calc(100% - 10px);
 }
 
-button:hover,
 a.button:hover {
 	background-image: linear-gradient(to bottom, #4c64f2, #7ca4f3);
 }
 
-button:active,
 a.button:active {
 	box-shadow: inset 0 -3px rgba(255, 255, 255, 0.5), 0 4px #172ba1;
 	transform: translateY(8px);
