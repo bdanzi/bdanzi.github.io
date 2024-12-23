@@ -6,25 +6,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	padding-top: 16px;
-	font-family: 'ruddy', sans-serif;
-	line-height: 1;
-	color: #001732;
-	touch-action: manipulation;
-}
-
-/* # Intestazione e Logo */
-
-header {
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-header img {
-	width: 112px;
-	height: 72px;
-}
 
 /* # Pannello di gioco */
 
@@ -138,7 +119,7 @@ header img {
 	justify-content: space-between;
 }
 
-button,
+
 a.button {
 	padding: 10px 15px;
 	font-size: 18px;
