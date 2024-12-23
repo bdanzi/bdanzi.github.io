@@ -252,6 +252,7 @@ function resetGame() {
 
   // Ripristina il turbo
   turbo = 1;
+  speed = 500;
   turboButton.innerHTML = `<img src="Kart_Crash/images/gauge-1.png">`;
 
   // Ripristina la posizione del kart
