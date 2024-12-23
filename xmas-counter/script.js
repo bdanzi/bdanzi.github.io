@@ -10,7 +10,7 @@ const panelElm = document.querySelector('.panel-xmas');
 // daysElm.innerHTML = 25;
 
 // data di natale
-const endDate = new Date("January 1 2024");
+const endDate = new Date("January 1 2025");
 const endDateInMs = endDate.getTime();
 
 // tabella in ms

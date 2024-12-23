@@ -49,7 +49,7 @@ for (let i = 0; i < boxes.length; i++) {
   // Rendo cliccabile il box
   box.addEventListener('click', function () {
     // 1. fai apparire sorpresa se il giorno scelto < giorno attuale
-    let DateofCalendar = "December " + (i+1) + " 2022"
+    let DateofCalendar = "December " + (i+1) + " 2024"
     const endDateInMs = new Date(DateofCalendar).getTime();
     const nowInMs = new Date().getTime();
     const diff = nowInMs - endDateInMs;
